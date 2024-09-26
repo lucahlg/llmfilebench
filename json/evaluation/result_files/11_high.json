@@ -1,0 +1,73 @@
+{
+    "library": {
+        "libraryId": 1001,
+        "name": "Central City Library",
+        "books": [
+            {
+                "bookId": 2001,
+                "title": "Mystery of the Old House",
+                "author": "Margaret Atwood",
+                "genres": [
+                    "Mystery",
+                    "Thriller"
+                ],
+                "availableCopies": 0,
+                "borrowedCopies": [
+                    {
+                        "memberId": 3001,
+                        "borrowDate": "2023-09-20",
+                        "dueDate": "2023-10-20"
+                    },
+                    {
+                        "memberId": 3002,
+                        "borrowDate": "2023-09-22",
+                        "dueDate": "2023-10-22"
+                    }
+                ]
+            },
+            {
+                "bookId": 2002,
+                "title": "The Art of Coding",
+                "author": "Linus Torvalds",
+                "genres": [
+                    "Technology",
+                    "Programming"
+                ],
+                "availableCopies": 5,
+                "borrowedCopies": []
+            }
+        ],
+        "members": [
+            {
+                "memberId": 3001,
+                "name": "Sophia Martinez",
+                "membershipDate": "2021-05-15",
+                "contact": {
+                    "phone": "555-3344"
+                }
+            },
+            {
+                "memberId": 3002,
+                "name": "Liam Thompson",
+                "membershipDate": "2022-08-22",
+                "contact": {
+                    "email": "liam.thompson@example.com",
+                    "phone": "555-7788"
+                }
+            }
+        ],
+        "libraryDirector": {
+            "name": "Dr. Amanda Lewis",
+            "since": "2019-07-01"
+        },
+        "location": {
+            "address": {
+                "street": "456 Library Lane",
+                "city": "Central City",
+                "state": "CA",
+                "postalCode": "90002",
+                "country": "USA"
+            }
+        }
+    }
+}

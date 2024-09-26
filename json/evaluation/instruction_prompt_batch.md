@@ -1,0 +1,2 @@
+You are tasked to solve a number of programming related exercises. I provided you with all tasks in your directory. Each folder consists of one ".md" file containing the task instruction and one ".json" file that has to be modified in the way it is described in the instruction.md file.
+Go through all the folders and complete the tasks.

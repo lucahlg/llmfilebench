@@ -1,0 +1,24 @@
+{
+    "vehicle": {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2020,
+        "details": {
+            "specs": {
+                "engine": "2.5L",
+                "horsepower": 203,
+                "fuelType": "Gasoline"
+            }
+        },
+        "features": [
+            "Bluetooth",
+            "Backup Camera",
+            "Lane Assist",
+            "Heated Seats"
+        ],
+        "owner": {
+            "name": "Michael Turner",
+            "licenseNumber": "A1234567"
+        }
+    }
+}

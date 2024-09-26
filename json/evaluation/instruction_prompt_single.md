@@ -1,0 +1,2 @@
+You are tasked to solve a programming related exercise. I provided you with the task in your directory. It consists of one ".md" file containing the task instruction and one ".json" file that has to be modified in the way it is described in the instruction.md file.
+Complete the task.

@@ -1,0 +1,17 @@
+{
+    "product": {
+      "productId": 101,
+      "name": "Wireless Mouse",
+      "price": 29.99,
+      "inStock": true,
+      "categories": ["Electronics", "Accessories"],
+      "dimensions": {
+        "length": 4.5,
+        "width": 2.3,
+        "height": 1.5
+      },
+      "tags": ["wireless", "mouse", "USB"]
+    },
+    "rating": 4.5
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "vehicle": {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "specs": {
+        "engine": "2.5L",
+        "horsepower": 203,
+        "fuelType": "Gasoline"
+      },
+      "features": ["Bluetooth", "Backup Camera", "Lane Assist"]
+    },
+    "isAvailable": false
+  }
+  

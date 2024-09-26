@@ -1,0 +1,16 @@
+{
+    "course": {
+      "courseId": "CS101",
+      "title": "Introduction to Computer Science",
+      "instructor": {
+        "firstName": "Emily",
+        "lastName": "Clark",
+        "email": "e.clark@university.edu"
+      },
+      "credits": 3,
+      "schedule": ["Monday", "Wednesday", "Friday"],
+      "room": "Building A, Room 101"
+    },
+    "isFull": false
+  }
+  
