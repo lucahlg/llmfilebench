@@ -1,0 +1,32 @@
+{
+    "productId": 12345,
+    "productName": "Acme SuperWidget",
+    "productDescription": "The Acme SuperWidget is the most advanced widget on the market. It features a sleek design, a powerful processor, and a long-lasting battery.",
+    "productCategory": "Electronics",
+    "productSpecifications": [
+        {
+            "specificationName": "Processor",
+            "specificationValue": "1.2GHz quad-core"
+        },
+        {
+            "specificationName": "Memory",
+            "specificationValue": "2GB RAM"
+        },
+        {
+            "specificationName": "Storage",
+            "specificationValue": "32GB"
+        },
+        {
+            "specificationName": "Display",
+            "specificationValue": "5-inch touchscreen"
+        },
+        {
+            "specificationName": "Camera",
+            "specificationValue": "12MP rear-facing, 5MP front-facing"
+        },
+        {
+            "specificationName": "Battery",
+            "specificationValue": "3,000mAh"
+        }
+    ]
+}

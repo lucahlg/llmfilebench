@@ -1,0 +1,51 @@
+{
+    "title": "The History of the Internet",
+    "description": "This episode explores the history of the Internet, from its origins as a military research project to its current status as a global communications network.",
+    "episodeNumber": 10,
+    "publicationDate": "2023-03-08",
+    "segments": [
+        {
+            "startTime": "00:00:00",
+            "endTime": "00:10:00",
+            "speakers": [
+                {
+                    "name": "Jane Doe",
+                    "role": "Host"
+                }
+            ],
+            "content": "In this segment, we'll discuss the early history of the Internet, from its origins as a military research project to its development as a global communications network."
+        },
+        {
+            "startTime": "00:10:00",
+            "endTime": "00:20:00",
+            "speakers": [
+                {
+                    "name": "John Smith",
+                    "role": "Guest"
+                }
+            ],
+            "content": "In this segment, we'll hear from John Smith, a computer scientist who was involved in the early development of the Internet. He'll share his insights on the challenges and triumphs of building the Internet."
+        },
+        {
+            "startTime": "00:20:00",
+            "endTime": "00:30:00",
+            "speakers": [
+                {
+                    "name": "Jane Doe",
+                    "role": "Host"
+                }
+            ],
+            "content": "In this segment, we'll discuss the impact of the Internet on society. We'll explore how the Internet has changed the way we communicate, learn, and do business."
+        }
+    ],
+    "authors": [
+        {
+            "name": "Jane Doe",
+            "role": "Host"
+        },
+        {
+            "name": "John Smith",
+            "role": "Guest"
+        }
+    ]
+}

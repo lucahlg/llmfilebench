@@ -1,0 +1,150 @@
+{
+    "name": "Springfield General Hospital",
+    "address": "123 Main Street, Springfield, CA 91234",
+    "floors": [
+        {
+            "floor_number": 1,
+            "rooms": [
+                {
+                    "room_number": "101",
+                    "room_type": "Patient Room",
+                    "area": 200,
+                    "beds": 2,
+                    "equipment": [
+                        {
+                            "name": "Bed",
+                            "type": "Bed",
+                            "quantity": 2
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Ventilator",
+                            "type": "Ventilator",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "room_number": "102",
+                    "room_type": "Patient Room",
+                    "area": 200,
+                    "beds": 2,
+                    "equipment": [
+                        {
+                            "name": "Bed",
+                            "type": "Bed",
+                            "quantity": 2
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Ventilator",
+                            "type": "Ventilator",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "room_number": "103",
+                    "room_type": "Staff Room",
+                    "area": 100,
+                    "equipment": [
+                        {
+                            "name": "Desk",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Chair",
+                            "type": "Other",
+                            "quantity": 2
+                        },
+                        {
+                            "name": "Computer",
+                            "type": "Other",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "floor_number": 2,
+            "rooms": [
+                {
+                    "room_number": "201",
+                    "room_type": "Operating Room",
+                    "area": 300,
+                    "equipment": [
+                        {
+                            "name": "Surgical Table",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Anesthesia Machine",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "room_number": "202",
+                    "room_type": "Operating Room",
+                    "area": 300,
+                    "equipment": [
+                        {
+                            "name": "Surgical Table",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Anesthesia Machine",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "room_number": "203",
+                    "room_type": "Waiting Room",
+                    "area": 150,
+                    "equipment": [
+                        {
+                            "name": "Chair",
+                            "type": "Other",
+                            "quantity": 10
+                        },
+                        {
+                            "name": "Television",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Vending Machine",
+                            "type": "Other",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

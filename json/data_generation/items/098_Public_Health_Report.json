@@ -1,0 +1,27 @@
+{
+    "person": {
+        "name": "Jane Doe",
+        "age": 35,
+        "gender": "female"
+    },
+    "location": {
+        "address": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "91234"
+    },
+    "condition": {
+        "name": "Influenza",
+        "description": "A respiratory illness caused by the influenza virus",
+        "symptoms": [
+            "fever",
+            "cough",
+            "sore throat",
+            "muscle aches",
+            "headache"
+        ]
+    },
+    "date": "2023-03-08",
+    "reporter": "Dr. Smith",
+    "notes": "The patient has been experiencing symptoms for 3 days."
+}

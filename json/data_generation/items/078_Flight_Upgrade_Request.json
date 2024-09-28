@@ -1,0 +1,23 @@
+{
+    "upgradeRequest": {
+        "flightSegment": {
+            "departureAirport": "SFO",
+            "arrivalAirport": "JFK",
+            "departureDate": "2023-03-08",
+            "departureTime": "10:30:00",
+            "arrivalDate": "2023-03-08",
+            "arrivalTime": "16:00:00",
+            "carrier": "AA",
+            "flightNumber": "1234"
+        },
+        "passenger": {
+            "id": "830d0e93-259d-48b1-89d9-1d29e971811b",
+            "name": "Alexandra Johnson",
+            "email": "alexandra.johnson@example.com",
+            "phoneNumber": "+15553456789"
+        },
+        "requestedCabinClass": "Business",
+        "upgradeReason": "I am a frequent flyer and I would like to experience the comfort of business class.",
+        "status": "Pending"
+    }
+}

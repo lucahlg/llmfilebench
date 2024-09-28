@@ -1,0 +1,29 @@
+{
+    "product": {
+        "id": "prod_123",
+        "name": "Awesome Product",
+        "description": "This is an awesome product that you should definitely buy.",
+        "price": 19.99,
+        "image": "https://example.com/product_image.jpg",
+        "category": "Electronics",
+        "tags": [
+            "electronics",
+            "gadgets",
+            "must-have"
+        ]
+    },
+    "recommendations": [
+        {
+            "productId": "prod_123",
+            "reason": "This product is highly rated by other customers.",
+            "score": 0.8,
+            "timestamp": "2023-03-08T18:30:00Z"
+        },
+        {
+            "productId": "prod_123",
+            "reason": "You have previously viewed this product.",
+            "score": 0.6,
+            "timestamp": "2023-03-07T12:00:00Z"
+        }
+    ]
+}

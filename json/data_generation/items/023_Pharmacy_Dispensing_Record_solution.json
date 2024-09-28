@@ -1,0 +1,37 @@
+{
+    "id": "RX123456789",
+    "patient": {
+        "id": "PT123456789",
+        "name": "Jane Doe",
+        "dateOfBirth": "1980-01-01",
+        "gender": "female",
+        "specialInstructions": "Take with food if stomach upset occurs"
+    },
+    "prescriber": {
+        "id": "PR123456789",
+        "name": "Dr. John Smith",
+        "contactNumber": "555-123-4567",
+        "signatureVerified": true
+    },
+    "medication": {
+        "id": "MD123456789",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "frequency": "Every 4 hours",
+        "route": "Oral",
+        "duration": "5 days"
+    },
+    "pharmacy": {
+        "id": "PH123456789",
+        "name": "ABC Pharmacy",
+        "address": "123 Main Street, Anytown, CA 12345",
+        "contactNumber": "555-987-6543"
+    },
+    "dispensationInfo": {
+        "dispensingDate": "2023-03-08",
+        "quantityDispensed": 30,
+        "refillsAllowed": 2
+    },
+    "instructions": "Take two tablets every four hours as needed for pain.",
+    "signature": "Dr. John Smith"
+}

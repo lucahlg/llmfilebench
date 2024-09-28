@@ -1,0 +1,38 @@
+{
+    "principalInvestigator": {
+        "name": "Dr. Jane Doe",
+        "email": "jane.doe@example.com",
+        "institution": "University of California, Berkeley"
+    },
+    "researchTeamMembers": [
+        {
+            "name": "Dr. John Smith",
+            "role": "Co-Investigator"
+        },
+        {
+            "name": "Dr. Mary Johnson",
+            "role": "Postdoctoral Fellow"
+        },
+        {
+            "name": "Mr. Michael Jones",
+            "role": "Research Assistant"
+        }
+    ],
+    "budget": {
+        "personnel": 100000,
+        "supplies": 50000,
+        "equipment": 25000,
+        "travel": 10000,
+        "other": 5000
+    },
+    "researchProposal": {
+        "title": "A Study of the Effects of Climate Change on Coral Reefs",
+        "abstract": "Coral reefs are among the most diverse and productive ecosystems on Earth, but they are also highly vulnerable to climate change. This study will investigate the effects of climate change on coral reefs in the Caribbean Sea, with a focus on the impacts of rising sea temperatures, ocean acidification, and coral bleaching.",
+        "specificAims": "The specific aims of this study are to:",
+        "backgroundAndSignificance": "Coral reefs are important for a variety of reasons. They provide food and shelter for a wide range of marine life, they help to protect coastlines from erosion, and they are a major source of tourism revenue. However, coral reefs are under threat from a variety of human activities, including climate change.",
+        "methods": "This study will use a variety of methods to investigate the effects of climate change on coral reefs, including:",
+        "expectedOutcomes": "The expected outcomes of this study are to:"
+    },
+    "dateSubmitted": "2023-03-08",
+    "status": "Pending Review"
+}

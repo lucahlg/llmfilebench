@@ -1,0 +1,66 @@
+{
+    "podcastTitle": "The Joe Rogan Experience",
+    "episodeTitle": "Elon Musk on SpaceX, Tesla, and Mars",
+    "podcastUrl": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084250",
+    "episodeUrl": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084250?i=1000551763766",
+    "chapterTimestamps": [
+        {
+            "title": "Introduction",
+            "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084250?i=1000551763766#t=00:00:00",
+            "timestamps": [
+                {
+                    "time": 0,
+                    "text": "Joe Rogan introduces Elon Musk."
+                },
+                {
+                    "time": 60,
+                    "text": "Elon Musk talks about his childhood."
+                }
+            ]
+        },
+        {
+            "title": "SpaceX",
+            "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084250?i=1000551763766#t=00:10:00",
+            "timestamps": [
+                {
+                    "time": 600,
+                    "text": "Elon Musk talks about the early days of SpaceX."
+                },
+                {
+                    "time": 900,
+                    "text": "Joe Rogan asks Elon Musk about his plans for Mars."
+                }
+            ]
+        },
+        {
+            "title": "Tesla",
+            "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084250?i=1000551763766#t=00:20:00",
+            "timestamps": [
+                {
+                    "time": 1200,
+                    "text": "Elon Musk talks about the challenges of building electric cars."
+                },
+                {
+                    "time": 1500,
+                    "text": "Joe Rogan asks Elon Musk about his plans for Tesla's future."
+                }
+            ]
+        },
+        {
+            "title": "Conclusion",
+            "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084250?i=1000551763766#t=00:30:00",
+            "timestamps": [
+                {
+                    "time": 1800,
+                    "text": "Joe Rogan asks Elon Musk about his final thoughts."
+                },
+                {
+                    "time": 2000,
+                    "text": "Elon Musk thanks Joe Rogan for having him on the show."
+                }
+            ]
+        }
+    ],
+    "podcastDescription": "The Joe Rogan Experience is a long-form conversation podcast hosted by comedian and mixed martial arts (MMA) commentator Joe Rogan. Each episode features Joe in conversation with a wide range of guests, from celebrities to musicians to scientists.",
+    "episodeTimestamps": []
+}

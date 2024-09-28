@@ -1,0 +1,64 @@
+{
+    "id": "ORD123456",
+    "confirmationNumber": "CNF123456",
+    "paymentDate": "2023-03-08",
+    "products": [
+        {
+            "name": "Apple iPhone 14 Pro Max",
+            "unitPrice": {
+                "value": 1099.0,
+                "currencyCode": "USD"
+            },
+            "quantity": {
+                "amount": 1,
+                "unit": "EACH"
+            }
+        },
+        {
+            "name": "Samsung Galaxy S23 Ultra",
+            "unitPrice": {
+                "value": 1199.0,
+                "currencyCode": "USD"
+            },
+            "quantity": {
+                "amount": 1,
+                "unit": "EACH"
+            }
+        },
+        {
+            "name": "Apple AirPods Pro",
+            "unitPrice": {
+                "value": 249.0,
+                "currencyCode": "USD"
+            },
+            "quantity": {
+                "amount": 2,
+                "unit": "PAIRS"
+            }
+        }
+    ],
+    "discount": {
+        "value": 125.0,
+        "currencyCode": "USD"
+    },
+    "deliveryCharge": {
+        "value": 15.0,
+        "currencyCode": "USD"
+    },
+    "tax": {
+        "value": 100.0,
+        "currencyCode": "USD"
+    },
+    "totalPrice": {
+        "value": 2393.0,
+        "currencyCode": "USD"
+    },
+    "customerName": "John Smith",
+    "customerAddress": "123 Main Street, Anytown, CA 12345",
+    "status": "CONFIRMED",
+    "orderInfo": {
+        "customerName": "John Smith",
+        "customerAddress": "123 Main Street, Anytown, CA 12345",
+        "status": "CONFIRMED"
+    }
+}

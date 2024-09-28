@@ -1,0 +1,85 @@
+{
+    "name": "Software Engineer Hiring Plan",
+    "description": "This plan outlines the steps for hiring software engineers for the company.",
+    "goal": "To hire 15 qualified software engineers within 9 months.",
+    "talentPools": [
+        {
+            "name": "Internal Employees",
+            "description": "Current employees who have expressed interest in software engineering roles.",
+            "size": 20,
+            "quality": "good"
+        },
+        {
+            "name": "Online Job Boards",
+            "description": "Popular job boards such as Indeed and Monster.",
+            "size": 1000,
+            "quality": "average"
+        },
+        {
+            "name": "Recruiting Agencies",
+            "description": "Specialized agencies that focus on finding software engineers.",
+            "size": 50,
+            "quality": "good"
+        },
+        {
+            "name": "Alumni Network",
+            "description": "Existing alumni who are interested in returning to the company as software engineers.",
+            "size": 30,
+            "quality": "good"
+        }
+    ],
+    "sourcingChannels": [
+        {
+            "name": "Employee Referrals",
+            "type": "internal",
+            "cost": 0,
+            "effectiveness": "very high"
+        },
+        {
+            "name": "Online Advertising",
+            "type": "external",
+            "cost": 5000,
+            "effectiveness": "medium"
+        },
+        {
+            "name": "Recruiting Agencies",
+            "type": "external",
+            "cost": 10000,
+            "effectiveness": "high"
+        }
+    ],
+    "hiringManagers": [
+        {
+            "managers": [
+                {
+                    "name": "John Smith",
+                    "department": "Engineering",
+                    "location": "San Francisco",
+                    "experience": 10
+                },
+                {
+                    "name": "Jane Doe",
+                    "department": "Product Development",
+                    "location": "New York",
+                    "experience": 8
+                }
+            ]
+        }
+    ],
+    "interviewProcess": {
+        "type": "phone",
+        "duration": 30,
+        "difficulty": "easy"
+    },
+    "offer": {
+        "salary": 100000,
+        "bonus": 10000,
+        "benefits": [
+            "Health insurance",
+            "Dental insurance",
+            "Vision insurance",
+            "401(k) with company match",
+            "Stock options"
+        ]
+    }
+}

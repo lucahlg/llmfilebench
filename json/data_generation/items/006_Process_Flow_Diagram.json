@@ -1,0 +1,77 @@
+{
+    "name": "Customer Onboarding Process",
+    "description": "This process outlines the steps involved in onboarding a new customer.",
+    "actors": [
+        {
+            "name": "Customer Service Representative",
+            "role": "Assists customers with onboarding process"
+        },
+        {
+            "name": "Account Manager",
+            "role": "Manages customer accounts"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "Customer Inquiry",
+            "description": "Customer contacts the company to inquire about onboarding."
+        },
+        {
+            "id": "step2",
+            "name": "Initial Consultation",
+            "description": "Customer Service Representative conducts initial consultation to gather customer information."
+        },
+        {
+            "id": "step3",
+            "name": "Account Creation",
+            "description": "Account Manager creates customer account."
+        },
+        {
+            "id": "step4",
+            "name": "Customer Training",
+            "description": "Customer Service Representative provides customer with training on how to use company's products and services."
+        }
+    ],
+    "gateways": [
+        {
+            "id": "gateway1",
+            "name": "Customer Eligibility Check",
+            "type": "Exclusive",
+            "convergent": false
+        },
+        {
+            "id": "gateway2",
+            "name": "Customer Approval",
+            "type": "Inclusive",
+            "convergent": true
+        }
+    ],
+    "flows": [
+        {
+            "id": "flow1",
+            "source": "step1",
+            "target": "gateway1"
+        },
+        {
+            "id": "flow2",
+            "source": "gateway1",
+            "target": "step2"
+        },
+        {
+            "id": "flow3",
+            "source": "step2",
+            "target": "gateway2"
+        },
+        {
+            "id": "flow4",
+            "source": "gateway2",
+            "target": "step3"
+        },
+        {
+            "id": "flow5",
+            "source": "step3",
+            "target": "step4"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ProductAvailabilityDate": {
+        "availabilityDate": "2023-03-08",
+        "availabilityStatus": "available",
+        "store": {
+            "storeName": "Best Buy",
+            "storeLocation": "123 Main Street, Anytown, CA 91234",
+            "storePhone": "(555) 555-5555",
+            "storeHours": "Monday-Friday: 10am-9pm, Saturday: 10am-6pm, Sunday: 12pm-5pm"
+        },
+        "quantityAvailable": 10,
+        "estimatedShipDate": "2023-03-10"
+    }
+}

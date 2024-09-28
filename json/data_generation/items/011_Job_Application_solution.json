@@ -1,0 +1,50 @@
+{
+    "name": "Jane Doe",
+    "contactInformation": {
+        "emailAddress": "jane.doe@example.com",
+        "phoneNumber": "(555) 555-5555"
+    },
+    "experience": [
+        {
+            "company": "Acme Corporation",
+            "position": "Software Engineer",
+            "startDate": "2020-01-01",
+            "endDate": "2022-12-31",
+            "description": "Developed and maintained software applications."
+        },
+        {
+            "company": "XYZ Corporation",
+            "position": "Senior Software Engineer",
+            "startDate": "2022-06-01",
+            "endDate": null,
+            "description": "Currently working as a senior software engineer"
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "Bachelor of Science in Computer Science",
+            "startDate": "2016-08-01",
+            "endDate": "2020-06-30",
+            "gpa": 3.9
+        }
+    ],
+    "skills": [
+        "Java",
+        "Python",
+        "C++",
+        "SQL",
+        "NoSQL"
+    ],
+    "certifications": [
+        {
+            "Certification Name": "Scrum Master Certification",
+            "Issuing Organization": "Scrum Alliance",
+            "Date Obtained": "2022-06-01"
+        }
+    ],
+    "languagesSpoken": "English, Spanish",
+    "positionApplyingFor": "Software Engineer",
+    "referralSource": "Indeed",
+    "availability": "Within 2 months"
+}

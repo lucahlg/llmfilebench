@@ -1,0 +1,50 @@
+{
+    "plan_name": "Acme Corporation Financial Risk Management Plan",
+    "risk_management_objectives": [
+        "Identify and assess financial risks",
+        "Develop and implement strategies to mitigate financial risks",
+        "Monitor and report on financial risks"
+    ],
+    "risk_management_strategies": [
+        "Diversify investments",
+        "Hedge against currency fluctuations",
+        "Maintain a strong capital base"
+    ],
+    "risk_management_controls": [
+        {
+            "control_name": "Investment Policy",
+            "control_description": "A policy that sets out the criteria for making investments.",
+            "control_objectives": [
+                "Ensure that investments are made in a prudent manner",
+                "Minimize the risk of investment losses"
+            ],
+            "control_procedures": [
+                "Establish an investment committee to review and approve all investment decisions",
+                "Require all investments to be made in accordance with the investment policy",
+                "Monitor investments on a regular basis"
+            ]
+        },
+        {
+            "control_name": "Foreign Currency Hedging Policy",
+            "control_description": "A policy that sets out the criteria for hedging against currency fluctuations.",
+            "control_objectives": [
+                "Minimize the risk of losses due to currency fluctuations",
+                "Ensure that hedging activities are conducted in a prudent manner"
+            ],
+            "control_procedures": [
+                "Establish a hedging committee to review and approve all hedging decisions",
+                "Require all hedging transactions to be made in accordance with the hedging policy",
+                "Monitor hedging activities on a regular basis"
+            ]
+        }
+    ],
+    "risk_management_reporting": {
+        "reporting_frequency": "quarterly",
+        "reporting_recipients": [
+            "Board of Directors",
+            "Audit Committee",
+            "Senior Management"
+        ],
+        "reporting_content": "A report on the financial risks faced by the company, the strategies and controls in place to mitigate those risks, and the performance of those strategies and controls."
+    }
+}

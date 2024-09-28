@@ -1,0 +1,26 @@
+{
+    "patient": {
+        "name": "Emma Watson",
+        "address": "123 Main Street, Springfield",
+        "phoneNumber": "555-123-4567"
+    },
+    "legalRepresentative": {
+        "name": "John Smith",
+        "address": "456 Elm Street, Springfield",
+        "phoneNumber": "555-234-5678"
+    },
+    "procedure": "Appendectomy",
+    "hospital": {
+        "name": "Springfield General Hospital",
+        "address": "789 Oak Street, Springfield",
+        "phoneNumber": "555-345-6789"
+    },
+    "date": "2023-03-08",
+    "signature": "Emma Watson",
+    "witness": {
+        "name": "Jane Doe",
+        "address": "1010 Pine Street, Springfield",
+        "phoneNumber": "555-456-7890"
+    },
+    "additionalInfo": "I understand that the procedure may involve risks, including infection, bleeding, and pain. I have been given the opportunity to ask questions about the procedure and I am satisfied with the answers I have received."
+}

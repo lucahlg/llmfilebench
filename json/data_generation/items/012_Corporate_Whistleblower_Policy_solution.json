@@ -1,0 +1,36 @@
+{
+    "policyName": "Whistleblower Protection Policy",
+    "policyNumber": "WB-001-2023",
+    "policyDescription": "This policy is designed to encourage and protect employees who report suspected violations of the law, company policies, or unethical behavior. Anonymity in reporting will be respected whenever possible.",
+    "applicability": [
+        "All employees"
+    ],
+    "reportingMechanisms": [
+        "Hotline",
+        "Email",
+        "Postal mail",
+        "Anonymous online form"
+    ],
+    "confidentiality": true,
+    "investigationProcess": {
+        "steps": [
+            {
+                "stepName": "Initial Assessment",
+                "description": "The initial report will be assessed to determine if it warrants a full investigation."
+            },
+            {
+                "stepName": "Full Investigation",
+                "description": "If a full investigation is warranted, it will be conducted by an independent investigator."
+            },
+            {
+                "stepName": "Conclusion and Reporting",
+                "description": "The findings of the investigation will be reported to the appropriate authorities."
+            }
+        ]
+    },
+    "protectionMeasures": [
+        "Confidentiality",
+        "Legal representation"
+    ],
+    "training": "All employees will receive annual training on the whistleblower policy."
+}

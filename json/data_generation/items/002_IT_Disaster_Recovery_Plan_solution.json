@@ -1,0 +1,88 @@
+{
+    "disaster_recovery_plan": {
+        "title": "Disaster Recovery Plan",
+        "description": "This is a disaster recovery plan for [Company Name].",
+        "goals_and_objectives": [
+            "To ensure business continuity during a disaster.",
+            "To minimize the impact of a disaster on the company's operations."
+        ],
+        "risks_and_threats": [
+            "Cyber attacks",
+            "Natural disasters",
+            "Power outages",
+            "Human error"
+        ]
+    },
+    "procedures": [
+        {
+            "title": "Backup and Recovery Procedures",
+            "description": "This procedure outlines the steps to be taken to backup and recover data and systems in the event of a disaster.",
+            "steps": [
+                "Identify critical data and systems.",
+                "Create regular backups of critical data and systems.",
+                "Store backups in a secure location off-site.",
+                "Test the backup and recovery procedures regularly.",
+                "Verify the integrity of backups before restoring them."
+            ]
+        },
+        {
+            "title": "Incident Response Procedures",
+            "description": "This procedure outlines the steps to be taken in the event of a disaster.",
+            "steps": [
+                "Assess the situation and determine the extent of the damage.",
+                "Activate the DRP team.",
+                "Implement the DRP procedures.",
+                "Communicate with stakeholders about the incident."
+            ]
+        }
+    ],
+    "communication_plan": {
+        "primary_contact": "John Smith",
+        "backup_contact": "Jane Doe",
+        "notification_methods": [
+            "Email",
+            "SMS",
+            "Phone call",
+            "WhatsApp"
+        ],
+        "communication_channels": [
+            "Slack",
+            "Microsoft Teams",
+            "Email"
+        ]
+    },
+    "team_members": {
+        "IT Manager": [
+            "Overall responsibility for the DRP.",
+            "Coordinating the implementation and testing of the DRP.",
+            "Reviewing and updating the DRP on a regular basis."
+        ],
+        "System Administrator": [
+            "Maintaining and updating the IT infrastructure.",
+            "Implementing and testing the DRP procedures.",
+            "Providing technical support during a disaster."
+        ]
+    },
+    "testing_and_exercising": {
+        "frequency": "Quarterly",
+        "procedures_to_test": [
+            "Backup and Recovery Procedures",
+            "Incident Response Procedures"
+        ],
+        "evaluation_criteria": [
+            "Time taken to restore critical systems",
+            "Effectiveness of communication during the test",
+            "Overall success of the test",
+            "Effectiveness of backup verification process"
+        ]
+    },
+    "maintenance_and_review": {
+        "frequency": "Quarterly",
+        "responsible_person": "IT Manager",
+        "review_criteria": [
+            "Changes to the IT infrastructure",
+            "New threats and vulnerabilities",
+            "Lessons learned from previous incidents"
+        ]
+    }
+}

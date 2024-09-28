@@ -1,0 +1,41 @@
+{
+    "name": "Aella",
+    "level": 15,
+    "weapon": {
+        "name": "Silver Sword",
+        "damage": 20,
+        "durability": 80
+    },
+    "armor": {
+        "name": "Chainmail Armor",
+        "defense": 30,
+        "durability": 70
+    },
+    "stats": {
+        "health": 80,
+        "mana": 50,
+        "strength": 60,
+        "agility": 70,
+        "intelligence": 40
+    },
+    "skills": [
+        {
+            "name": "Swordsmanship",
+            "level": 7
+        },
+        {
+            "name": "Archery",
+            "level": 5
+        }
+    ],
+    "quests": [
+        {
+            "name": "Defeat the Dragon",
+            "status": "active"
+        },
+        {
+            "name": "Find the Lost Treasure",
+            "status": "completed"
+        }
+    ]
+}

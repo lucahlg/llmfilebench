@@ -1,0 +1,22 @@
+{
+    "name": "projects/my-project/locations/us-east1/keyRings/my-key-ring/cryptoKeys/my-key",
+    "purpose": "ENCRYPT_DECRYPT",
+    "versionTemplate": {
+        "algorithm": "GOOGLE_SYMMETRIC_ENCRYPTION"
+    },
+    "labels": {
+        "team": "alpha"
+    },
+    "protectionLevel": "HSM",
+    "nextRotationTime": "2023-01-01T00:00:00Z",
+    "rotationPeriod": "24h",
+    "keyVersion": [
+        {
+            "name": "projects/my-project/locations/us-east1/keyRings/my-key-ring/cryptoKeys/my-key/cryptoKeyVersions/123",
+            "state": "ENABLED",
+            "algorithm": "GOOGLE_SYMMETRIC_ENCRYPTION"
+        }
+    ],
+    "createTime": "2022-01-01T00:00:00Z",
+    "state": "ENABLED"
+}

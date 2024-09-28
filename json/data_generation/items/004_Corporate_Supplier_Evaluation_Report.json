@@ -1,0 +1,33 @@
+{
+    "supplierName": "Acme Corporation",
+    "evaluationDate": "2023-03-08",
+    "overallRating": 4,
+    "criteria": [
+        {
+            "name": "Quality of products or services",
+            "rating": 5,
+            "comments": "Acme Corporation consistently delivers high-quality products and services that meet or exceed our expectations."
+        },
+        {
+            "name": "Reliability and responsiveness",
+            "rating": 4,
+            "comments": "Acme Corporation is generally reliable and responsive, but there have been a few instances of late deliveries or missed deadlines."
+        },
+        {
+            "name": "Cost-effectiveness",
+            "rating": 3,
+            "comments": "Acme Corporation's prices are competitive, but there may be opportunities for cost savings in some areas."
+        },
+        {
+            "name": "Innovation and technology",
+            "rating": 4,
+            "comments": "Acme Corporation is constantly innovating and investing in new technologies, which helps them stay ahead of the competition."
+        },
+        {
+            "name": "Sustainability and social responsibility",
+            "rating": 5,
+            "comments": "Acme Corporation is committed to sustainability and social responsibility, and they have implemented a number of initiatives to reduce their environmental impact and give back to the community."
+        }
+    ],
+    "notes": "Overall, Acme Corporation is a strong supplier that provides high-quality products and services. They are reliable and responsive, but there is room for improvement in terms of cost-effectiveness. Acme Corporation is also committed to innovation and sustainability, which are important factors for us."
+}

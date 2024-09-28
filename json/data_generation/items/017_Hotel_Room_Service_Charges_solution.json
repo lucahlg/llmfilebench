@@ -1,0 +1,117 @@
+{
+    "roomServiceChargeHistory": [
+        {
+            "id": "38400003-8cf0-11bd-b23e-10b96e4ef00d",
+            "roomNumber": "302",
+            "guestName": "Jane Doe",
+            "date": "2023-03-06",
+            "time": "18:00",
+            "items": [
+                {
+                    "name": "Pasta Primavera",
+                    "description": "Fresh vegetables tossed with pasta in a light tomato sauce",
+                    "quantity": 1,
+                    "unitPrice": {
+                        "amount": 13.99,
+                        "currency": "USD"
+                    }
+                },
+                {
+                    "name": "Garlic Bread",
+                    "description": "Toasted bread with garlic butter",
+                    "quantity": 1,
+                    "unitPrice": {
+                        "amount": 4.99,
+                        "currency": "USD"
+                    }
+                },
+                {
+                    "name": "Mineral Water",
+                    "description": "1-liter bottle of mineral water",
+                    "quantity": 2,
+                    "unitPrice": {
+                        "amount": 3.0,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "totalCharge": {
+                "amount": 21.98,
+                "currency": "USD"
+            },
+            "numberOfGuests": 2
+        },
+        {
+            "id": "23e-10b96e4ef00d",
+            "roomNumber": "302",
+            "guestName": "Jane Doe",
+            "date": "2023-03-07",
+            "time": "12:00",
+            "items": [
+                {
+                    "name": "Caesar Salad",
+                    "description": "Romaine lettuce, croutons, Parmesan cheese, and Caesar dressing",
+                    "quantity": 1,
+                    "unitPrice": {
+                        "amount": 8.99,
+                        "currency": "USD"
+                    }
+                },
+                {
+                    "name": "Iced Tea",
+                    "description": "16-ounce glass of iced tea",
+                    "quantity": 2,
+                    "unitPrice": {
+                        "amount": 2.0,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "totalCharge": {
+                "amount": 20.98,
+                "currency": "USD"
+            },
+            "numberOfGuests": 2
+        },
+        {
+            "id": "38400004-8cf0-11bd-b23e-10b96e4ef00d",
+            "roomNumber": "303",
+            "guestName": "John Doe",
+            "date": "2023-03-09",
+            "time": "14:30",
+            "items": [
+                {
+                    "name": "Chicken Soup",
+                    "description": "Hearty chicken soup with vegetables and noodles",
+                    "quantity": 1,
+                    "unitPrice": {
+                        "amount": 9.99,
+                        "currency": "USD"
+                    }
+                },
+                {
+                    "name": "Fresh Fruit Salad",
+                    "description": "A mix of fresh seasonal fruits",
+                    "quantity": 2,
+                    "unitPrice": {
+                        "amount": 6.0,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "totalCharge": {
+                "amount": 16.99,
+                "currency": "USD"
+            },
+            "numberOfGuests": 2
+        }
+    ],
+    "dateRange": {
+        "startDate": "2023-03-06",
+        "endDate": "2023-03-09"
+    },
+    "totalCharges": {
+        "amount": 59.95,
+        "currency": "USD"
+    }
+}

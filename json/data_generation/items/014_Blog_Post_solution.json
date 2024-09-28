@@ -1,0 +1,36 @@
+{
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": {
+        "name": "Douglas Adams",
+        "bio": "Douglas Adams was an English author, humorist, and dramatist. He is best known for his series of comic science fiction novels including The Hitchhiker's Guide to the Galaxy and Dirk Gently's Holistic Detective Agency."
+    },
+    "content": "The Hitchhiker's Guide to the Galaxy is a comic science fiction series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, including stage shows, novels, comic books, a 1981 TV series, a 1984 computer game, and 2005 feature film.",
+    "date": "1979-10-12",
+    "rating": {
+        "overall": 4,
+        "recommendation": true
+    },
+    "categories": [
+        {
+            "name": "Science Fiction"
+        }
+    ],
+    "reviews": [
+        {
+            "author": {
+                "name": "John Smith"
+            },
+            "content": "This is a great book! I laughed out loud several times.",
+            "date": "2023-03-08",
+            "rating": 5
+        },
+        {
+            "author": {
+                "name": "Jane Doe"
+            },
+            "content": "I didn't really get the humor. I thought it was kind of boring.",
+            "date": "2023-03-09",
+            "rating": 2
+        }
+    ]
+}

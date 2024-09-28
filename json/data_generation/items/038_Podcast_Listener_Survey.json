@@ -1,0 +1,36 @@
+{
+    "listener": {
+        "age": 35,
+        "gender": "female",
+        "education": "college degree",
+        "income": "$50,000-$74,999"
+    },
+    "podcast": {
+        "name": "The Daily",
+        "genre": "news",
+        "frequency": "daily",
+        "length": 20
+    },
+    "listening_habits": {
+        "frequency": "daily",
+        "average_time": 30,
+        "preferred_platform": "Spotify"
+    },
+    "podcast_preferences": {
+        "genres": [
+            "news",
+            "comedy",
+            "education"
+        ],
+        "topics": [
+            "politics",
+            "current events",
+            "science"
+        ],
+        "formats": [
+            "solo",
+            "interview"
+        ]
+    },
+    "additional_comments": "I enjoy listening to podcasts while I'm commuting to work or doing chores around the house. I find that they're a great way to stay informed and entertained."
+}

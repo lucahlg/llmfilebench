@@ -1,0 +1,38 @@
+{
+    "patientId": "ABC123",
+    "medicalConditions": {
+        "diabetes": false,
+        "allergies": [
+            "peanuts",
+            "eggs"
+        ]
+    },
+    "personalInfo": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "dateOfBirth": "1990-01-01"
+    },
+    "vaccinations": [
+        {
+            "vaccinationType": "MMR",
+            "dose": 1,
+            "dateAdministered": "2005-01-01",
+            "lotNumber": "111222",
+            "manufacturer": "Merck"
+        },
+        {
+            "vaccinationType": "Meningococcal",
+            "dose": 1,
+            "dateAdministered": "2002-01-01",
+            "lotNumber": "987654",
+            "manufacturer": "Sanofi Pasteur"
+        },
+        {
+            "vaccinationType": "Flu",
+            "dose": 1,
+            "dateAdministered": "2010-01-01",
+            "lotNumber": "321654",
+            "manufacturer": "Novartis"
+        }
+    ]
+}

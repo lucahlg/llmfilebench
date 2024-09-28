@@ -1,0 +1,62 @@
+{
+    "name": "Art Gallery Membership Rewards",
+    "membershipTypes": [
+        {
+            "name": "Individual Membership",
+            "cost": 50,
+            "duration": "1 year",
+            "benefits": [
+                {
+                    "name": "Free admission to the art gallery",
+                    "description": "Members receive free admission to the art gallery, including special exhibitions."
+                },
+                {
+                    "name": "10% discount on art purchases",
+                    "description": "Members receive a 10% discount on all art purchases, including prints, paintings, and sculptures."
+                }
+            ]
+        },
+        {
+            "name": "Family Membership",
+            "cost": 75,
+            "duration": "1 year",
+            "benefits": [
+                {
+                    "name": "Free admission to the art gallery for up to 2 adults and 2 children",
+                    "description": "Family members receive free admission to the art gallery, including special exhibitions."
+                },
+                {
+                    "name": "15% discount on art purchases",
+                    "description": "Family members receive a 15% discount on all art purchases, including prints, paintings, and sculptures."
+                },
+                {
+                    "name": "Invitation to exclusive member events",
+                    "description": "Family members are invited to exclusive member events, such as gallery talks, receptions, and workshops."
+                }
+            ]
+        },
+        {
+            "name": "Patron Membership",
+            "cost": 1000,
+            "duration": "1 year",
+            "benefits": [
+                {
+                    "name": "Free admission to the art gallery for up to 4 adults and 4 children",
+                    "description": "Patron members receive free admission to the art gallery, including special exhibitions."
+                },
+                {
+                    "name": "20% discount on art purchases",
+                    "description": "Patron members receive a 20% discount on all art purchases, including prints, paintings, and sculptures."
+                },
+                {
+                    "name": "Invitation to exclusive patron events",
+                    "description": "Patron members are invited to exclusive patron events, such as private tours, dinners, and receptions."
+                },
+                {
+                    "name": "Recognition in the art gallery's annual report",
+                    "description": "Patron members' names are recognized in the art gallery's annual report."
+                }
+            ]
+        }
+    ]
+}

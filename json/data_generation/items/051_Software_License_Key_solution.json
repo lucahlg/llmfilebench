@@ -1,0 +1,19 @@
+{
+    "LicenseKey": {
+        "key": "ABC123-EFG456-HIJ789",
+        "product": "ProductB",
+        "activationDate": "2023-08-15",
+        "expirationDate": "2025-08-14",
+        "seats": 7,
+        "activated": false,
+        "companyName": "Acme Inc.",
+        "supportContact": {
+            "name": "John Smith",
+            "email": "john.smith@example.com"
+        },
+        "licenseNotes": {
+            "text": "This license key is for internal use only.",
+            "type": "internal"
+        }
+    }
+}

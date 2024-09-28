@@ -1,0 +1,33 @@
+{
+    "name": "MyRule",
+    "description": "Allow HTTP traffic from port 80 and HTTPS traffic from port 443.",
+    "protocol": [
+        "TCP",
+        "UDP"
+    ],
+    "tcpPortRanges": {
+        "startPort": 80,
+        "endPort": 8080
+    },
+    "udpPortRanges": {
+        "startPort": 50000,
+        "endPort": 59999
+    },
+    "virtualMachine": {
+        "name": "web-server-2",
+        "id": "1234567890123456789",
+        "projectId": "my-new-project"
+    },
+    "firewall": {
+        "name": "web-firewall",
+        "id": "0987654321098765432",
+        "direction": "INGRESS",
+        "network": "default",
+        "sourceRanges": [
+            "10.0.0.0/24"
+        ],
+        "targetTags": [
+            "web"
+        ]
+    }
+}

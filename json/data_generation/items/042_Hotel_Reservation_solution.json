@@ -1,0 +1,34 @@
+{
+    "hotel": {
+        "hotelInfo": {
+            "hotelId": "HTL-123456",
+            "name": "Grand Hyatt New York",
+            "city": "New York City",
+            "state": "NY"
+        },
+        "lat": 40.768566,
+        "lng": -73.979656
+    },
+    "roomType": {
+        "roomTypeId": "RM-123456",
+        "name": "King Room",
+        "description": "A spacious room with a king-size bed and a sitting area.",
+        "capacity": 2,
+        "price": 227.5
+    },
+    "reservation": {
+        "reservationId": "RSV-123456",
+        "hotelId": "HTL-123456",
+        "roomTypeId": "RM-123456",
+        "startDate": "2023-08-15",
+        "endDate": "2023-08-20",
+        "numGuests": 2,
+        "totalPrice": 500.0,
+        "status": "paid",
+        "guestInfo": {
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "phoneNumber": "555-1234"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "factoryName": "Acme Manufacturing",
+    "factoryAddress": "123 Main Street, Anytown, CA 12345",
+    "planYear": 2023,
+    "wasteSources": [
+        {
+            "id": "WS-01",
+            "name": "Solid waste from production line 1",
+            "type": "Solid",
+            "quantity": 100,
+            "unit": "tons"
+        },
+        {
+            "id": "WS-02",
+            "name": "Liquid waste from chemical processing",
+            "type": "Liquid",
+            "quantity": 50,
+            "unit": "gallons"
+        },
+        {
+            "id": "WS-03",
+            "name": "Gaseous waste from combustion processes",
+            "type": "Gaseous",
+            "quantity": 25,
+            "unit": "cubic feet per minute"
+        }
+    ],
+    "wasteReductions": [
+        {
+            "id": "WR-01",
+            "name": "Install new filtration system to reduce solid waste",
+            "description": "The new filtration system will remove more solid waste from the production line, reducing the amount of waste that is sent to the landfill.",
+            "goal": 50,
+            "implementationDate": "2023-06-01",
+            "responsiblePerson": "John Smith"
+        },
+        {
+            "id": "WR-02",
+            "name": "Implement new recycling program for liquid waste",
+            "description": "The new recycling program will divert liquid waste from the sewer system and send it to a recycling facility.",
+            "goal": 75,
+            "implementationDate": "2023-09-01",
+            "responsiblePerson": "Jane Doe"
+        },
+        {
+            "id": "WR-03",
+            "name": "Upgrade combustion equipment to reduce gaseous waste",
+            "description": "The new combustion equipment will produce less gaseous waste, reducing the amount of air pollution.",
+            "goal": 25,
+            "implementationDate": "2024-01-01",
+            "responsiblePerson": "Michael Jones"
+        }
+    ]
+}

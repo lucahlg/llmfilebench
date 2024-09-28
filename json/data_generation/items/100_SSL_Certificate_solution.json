@@ -1,0 +1,30 @@
+{
+    "sslCertificate": {
+        "domain": "www.example.com",
+        "certificateAuthority": {
+            "name": "GlobalSign",
+            "email": "ssl@globalsign.com",
+            "website": "https://www.globalsign.com"
+        },
+        "certificateConfiguration": {
+            "certificationDetails": {
+                "keyAlgorithm": "EC_256",
+                "signatureAlgorithm": "SHA256withRSA",
+                "validityPeriod": {
+                    "start": "2023-03-08",
+                    "end": "2027-03-07"
+                }
+            },
+            "configurationOptions": {
+                "renewal": {
+                    "enabled": true,
+                    "period": {
+                        "years": 2,
+                        "months": 0,
+                        "days": 0
+                    }
+                }
+            }
+        }
+    }
+}

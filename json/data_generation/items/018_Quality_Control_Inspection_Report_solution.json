@@ -1,0 +1,134 @@
+{
+    "report": {
+        "id": "INSP-001",
+        "inspectionDate": "2023-03-08",
+        "inspectorName": "Jane Doe",
+        "regulatoryCompliance": {
+            "industry": "Food and Beverage",
+            "certificationDate": "2023-02-15",
+            "certificationNumber": "123456"
+        },
+        "inspectionItems": [
+            {
+                "id": "ITEM-001",
+                "name": "Product Quality",
+                "inspectionCriteria": [
+                    "Visual inspection for defects",
+                    "Dimensional measurements",
+                    "Functional testing"
+                ],
+                "inspectionResults": {
+                    "results": [
+                        "No defects found",
+                        "All dimensions within tolerance",
+                        "Product functions as expected"
+                    ],
+                    "details": [
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        }
+                    ]
+                },
+                "status": "passed"
+            },
+            {
+                "id": "ITEM-002",
+                "name": "Packaging Integrity",
+                "inspectionCriteria": [
+                    "Visual inspection for damage",
+                    "Check for proper labeling and markings",
+                    "Ensure product is securely packaged"
+                ],
+                "inspectionResults": {
+                    "results": [
+                        "No damage found",
+                        "Proper labeling and markings present",
+                        "Product securely packaged"
+                    ],
+                    "details": [
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        }
+                    ]
+                },
+                "status": "passed"
+            },
+            {
+                "id": "ITEM-003",
+                "name": "Documentation Review",
+                "inspectionCriteria": [
+                    "Check for user manual and warranty information",
+                    "Verify compliance with regulatory requirements",
+                    "Ensure documentation is clear and easy to understand"
+                ],
+                "inspectionResults": {
+                    "results": [
+                        "User manual and warranty information present",
+                        "Product complies with regulatory requirements",
+                        "Documentation is clear and easy to understand"
+                    ],
+                    "details": [
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        }
+                    ]
+                },
+                "status": "passed"
+            },
+            {
+                "id": "ITEM-004",
+                "name": "Labeling and Branding Compliance",
+                "inspectionCriteria": [
+                    "Check for correct logo placement",
+                    "Verify brand name and tagline accuracy"
+                ],
+                "inspectionResults": {
+                    "results": [
+                        "No issues found",
+                        "All branding elements match company guidelines"
+                    ],
+                    "details": [
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        },
+                        {
+                            "description": "",
+                            "correctiveActionTaken": ""
+                        }
+                    ]
+                },
+                "status": "passed"
+            }
+        ],
+        "overallStatus": "partially passed",
+        "comments": "The report indicates that one inspection item has failed."
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "patientId": "ABC123",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "dateOfBirth": "1990-01-01",
+    "vaccinations": [
+        {
+            "vaccinationType": "MMR",
+            "dose": 1,
+            "dateAdministered": "2000-01-01",
+            "lotNumber": "123456",
+            "manufacturer": "Merck"
+        },
+        {
+            "vaccinationType": "Chickenpox",
+            "dose": 2,
+            "dateAdministered": "2001-01-01",
+            "lotNumber": "654321",
+            "manufacturer": "Varilrix"
+        },
+        {
+            "vaccinationType": "Meningococcal",
+            "dose": 1,
+            "dateAdministered": "2002-01-01",
+            "lotNumber": "987654",
+            "manufacturer": "Sanofi Pasteur"
+        }
+    ]
+}

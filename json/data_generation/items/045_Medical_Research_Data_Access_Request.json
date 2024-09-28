@@ -1,0 +1,62 @@
+{
+    "requestNumber": "ABC12345",
+    "requestTitle": "Exploring the Relationship between Genetic Variants and Disease Outcomes",
+    "requestingOrganization": {
+        "name": "Acme Research Institute",
+        "address": "123 Main Street, Anytown, CA 91234",
+        "contactPerson": "Dr. Jane Doe",
+        "contactEmail": "jane.doe@acme-research.org"
+    },
+    "principalInvestigator": {
+        "name": "Dr. John Smith",
+        "affiliation": "University of California, Berkeley",
+        "contactEmail": "john.smith@berkeley.edu"
+    },
+    "projectStartDate": "2023-01-01",
+    "projectEndDate": "2025-12-31",
+    "dataRequest": {
+        "dataTypes": [
+            "medical_records",
+            "lab_results",
+            "genomic_data"
+        ],
+        "specificDataElements": [
+            "Patient demographics",
+            "Medical history",
+            "Laboratory test results",
+            "Genetic variants"
+        ],
+        "timeframe": {
+            "startDate": "2010-01-01",
+            "endDate": "2022-12-31"
+        },
+        "numberOfSubjects": 1000
+    },
+    "dataUseAgreement": true,
+    "ethicsApproval": {
+        "approvalNumber": "XYZ98765",
+        "approvalDate": "2022-07-15",
+        "ethicsCommittee": "Institutional Review Board, University of California, Berkeley"
+    },
+    "researchOutputs": [
+        {
+            "type": "publication",
+            "title": "The Association between Genetic Variants and Disease Outcomes: A Large-Scale Study",
+            "authors": [
+                "Dr. John Smith",
+                "Dr. Jane Doe"
+            ],
+            "publicationDate": "2025-06-30",
+            "link": "https://www.nature.com/articles/s41591-025-01234-5"
+        },
+        {
+            "type": "presentation",
+            "title": "Exploring the Genetic Basis of Disease",
+            "authors": [
+                "Dr. John Smith"
+            ],
+            "presentationDate": "2024-10-15",
+            "link": "https://www.youtube.com/watch?v=123456789"
+        }
+    ]
+}

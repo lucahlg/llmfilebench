@@ -1,0 +1,30 @@
+{
+    "id": "d9b826c7-923d-479f-9735-86317e04467d",
+    "name": "Gold SLA",
+    "description": "This SLA guarantees 99.9% uptime, 100ms latency, and 99.99% availability.",
+    "service_level_objectives": [
+        {
+            "name": "Uptime",
+            "target": 99.9,
+            "metric": "uptime"
+        },
+        {
+            "name": "Latency",
+            "target": 100,
+            "metric": "latency"
+        },
+        {
+            "name": "Availability",
+            "target": 99.99,
+            "metric": "availability"
+        }
+    ],
+    "credits": {
+        "amount": 10,
+        "unit": "percent"
+    },
+    "term": {
+        "start_date": "2023-01-01",
+        "end_date": "2024-12-31"
+    }
+}

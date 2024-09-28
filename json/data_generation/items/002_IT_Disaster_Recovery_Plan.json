@@ -1,0 +1,107 @@
+{
+    "id": "drp-123",
+    "name": "IT Disaster Recovery Plan",
+    "description": "This document outlines the procedures to be followed in the event of a disaster that affects the IT infrastructure of the company.",
+    "status": "active",
+    "created_at": "2023-03-08T14:30:00Z",
+    "updated_at": "2023-03-15T10:45:00Z",
+    "objectives": [
+        "Ensure the continuity of critical business operations in the event of a disaster.",
+        "Minimize the impact of a disaster on the company's reputation and financial stability.",
+        "Protect the company's data and information assets."
+    ],
+    "scope": "This DRP applies to all IT systems and infrastructure, including servers, networks, applications, and data.",
+    "roles_and_responsibilities": [
+        {
+            "role": "IT Manager",
+            "responsibilities": [
+                "Overall responsibility for the DRP.",
+                "Coordinating the implementation and testing of the DRP.",
+                "Reviewing and updating the DRP on a regular basis."
+            ]
+        },
+        {
+            "role": "System Administrator",
+            "responsibilities": [
+                "Maintaining and updating the IT infrastructure.",
+                "Implementing and testing the DRP procedures.",
+                "Providing technical support during a disaster."
+            ]
+        },
+        {
+            "role": "Business Continuity Manager",
+            "responsibilities": [
+                "Developing and implementing business continuity plans.",
+                "Coordinating the response to a disaster.",
+                "Communicating with stakeholders during a disaster."
+            ]
+        }
+    ],
+    "procedures": [
+        {
+            "title": "Backup and Recovery Procedures",
+            "description": "This procedure outlines the steps to be taken to backup and recover data and systems in the event of a disaster.",
+            "steps": [
+                "Identify critical data and systems.",
+                "Create regular backups of critical data and systems.",
+                "Store backups in a secure location off-site.",
+                "Test the backup and recovery procedures regularly."
+            ]
+        },
+        {
+            "title": "Incident Response Procedures",
+            "description": "This procedure outlines the steps to be taken in the event of a disaster.",
+            "steps": [
+                "Assess the situation and determine the extent of the damage.",
+                "Activate the DRP team.",
+                "Implement the DRP procedures.",
+                "Communicate with stakeholders about the incident."
+            ]
+        },
+        {
+            "title": "Recovery Procedures",
+            "description": "This procedure outlines the steps to be taken to recover from a disaster.",
+            "steps": [
+                "Restore critical data and systems from backups.",
+                "Test the restored systems to ensure they are functioning properly.",
+                "Resume normal operations."
+            ]
+        }
+    ],
+    "communication_plan": {
+        "primary_contact": "John Smith",
+        "backup_contact": "Jane Doe",
+        "notification_methods": [
+            "Email",
+            "SMS",
+            "Phone call"
+        ],
+        "communication_channels": [
+            "Slack",
+            "Microsoft Teams",
+            "Email"
+        ]
+    },
+    "testing_and_exercising": {
+        "frequency": "Quarterly",
+        "procedures_to_test": [
+            "Backup and Recovery Procedures",
+            "Incident Response Procedures",
+            "Recovery Procedures"
+        ],
+        "evaluation_criteria": [
+            "Time taken to restore critical systems",
+            "Effectiveness of communication during the test",
+            "Overall success of the test"
+        ]
+    },
+    "maintenance_and_review": {
+        "frequency": "Annually",
+        "responsible_person": "IT Manager",
+        "review_criteria": [
+            "Changes to the IT infrastructure",
+            "New threats and vulnerabilities",
+            "Lessons learned from previous incidents"
+        ]
+    }
+}

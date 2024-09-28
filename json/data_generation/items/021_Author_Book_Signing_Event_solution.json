@@ -1,0 +1,39 @@
+{
+    "id": 1,
+    "meetingName": "Book Club Meeting",
+    "venue": {
+        "address": {
+            "streetAddress": "100 Main Street",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "91234"
+        }
+    },
+    "book": {
+        "title": "The Great Gatsby",
+        "author": {
+            "firstName": "F. Scott",
+            "lastName": "Fitzgerald",
+            "bio": "American novelist and short story writer, widely regarded as one of the greatest American writers of the 20th century."
+        },
+        "isbn": "9780743273565"
+    },
+    "author": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "bio": "Local book club member and avid reader."
+    },
+    "speakers": [
+        {
+            "name": "John Smith",
+            "bio": "Author of several novels and short stories."
+        },
+        {
+            "name": "Jane Doe",
+            "bio": "Local poet and playwright."
+        }
+    ],
+    "startDate": "2023-03-15",
+    "endDate": "2023-03-15",
+    "startTime": "19:00"
+}

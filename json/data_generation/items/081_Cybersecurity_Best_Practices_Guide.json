@@ -1,0 +1,38 @@
+{
+    "name": "My Security Framework",
+    "version": "1.0.0",
+    "authors": [
+        "Alice",
+        "Bob"
+    ],
+    "guidelines": [
+        {
+            "title": "Secure Coding Practices",
+            "description": "This guideline provides recommendations for secure coding practices.",
+            "controls": [
+                {
+                    "name": "Use strong passwords",
+                    "description": "Use passwords that are at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and symbols."
+                },
+                {
+                    "name": "Validate user input",
+                    "description": "Validate user input to prevent malicious code from being executed."
+                }
+            ]
+        },
+        {
+            "title": "Network Security",
+            "description": "This guideline provides recommendations for securing networks.",
+            "controls": [
+                {
+                    "name": "Use a firewall",
+                    "description": "Use a firewall to block unauthorized access to your network."
+                },
+                {
+                    "name": "Use intrusion detection and prevention systems",
+                    "description": "Use intrusion detection and prevention systems to detect and block malicious activity on your network."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "program_name": "My Awesome Loyalty Program",
+    "tiers": [
+        {
+            "id": 1,
+            "name": "Bronze",
+            "discount": 0.1
+        },
+        {
+            "id": 2,
+            "name": "Silver",
+            "discount": 0.15
+        },
+        {
+            "id": 3,
+            "name": "Gold",
+            "discount": 0.2
+        }
+    ],
+    "memberships": [
+        {
+            "id": 1,
+            "customer": {
+                "id": 1,
+                "name": "Alice Smith",
+                "email": "alice.smith@example.com",
+                "address": {
+                    "street": "123 Main Street",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip": "12345"
+                }
+            },
+            "tier": {
+                "id": 1,
+                "name": "Bronze",
+                "discount": 0.1
+            },
+            "start_date": "2023-01-01",
+            "end_date": "2024-12-31",
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "customer": {
+                "id": 2,
+                "name": "Bob Jones",
+                "email": "bob.jones@example.com",
+                "address": {
+                    "street": "456 Elm Street",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip": "67890"
+                }
+            },
+            "tier": {
+                "id": 2,
+                "name": "Silver",
+                "discount": 0.15
+            },
+            "start_date": "2022-07-01",
+            "end_date": "2023-06-30",
+            "status": "inactive"
+        }
+    ]
+}

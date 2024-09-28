@@ -1,0 +1,19 @@
+{
+    "id": 12345,
+    "foundDate": "2023-03-08",
+    "foundLocation": "Central Park, New York City",
+    "itemDescription": {
+        "category": "Personal Belongings",
+        "type": "Wallet",
+        "brand": "Gucci",
+        "color": "Black",
+        "size": "Small",
+        "serialNumber": "1234567890"
+    },
+    "finderContact": {
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "123-456-7890"
+    },
+    "notes": "The wallet was found on a bench near the playground."
+}

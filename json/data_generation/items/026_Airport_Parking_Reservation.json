@@ -1,0 +1,37 @@
+{
+    "reservationId": "ABC123",
+    "airport": {
+        "code": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "United States"
+    },
+    "parkingGarage": {
+        "name": "Central Parking Garage",
+        "address": "123 Main Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90012"
+    },
+    "parkingSpace": {
+        "number": 123,
+        "type": "standard",
+        "handicapAccessible": false,
+        "covered": true
+    },
+    "startDate": "2023-03-08",
+    "endDate": "2023-03-10",
+    "vehicle": {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2020,
+        "licensePlateNumber": "123ABC"
+    },
+    "additionalInstructions": "Please leave the keys in the car.",
+    "paymentInfo": {
+        "type": "credit_card",
+        "cardNumber": "4111-1111-1111-1111",
+        "expirationDate": "2025-12-31",
+        "cvv": "123"
+    }
+}

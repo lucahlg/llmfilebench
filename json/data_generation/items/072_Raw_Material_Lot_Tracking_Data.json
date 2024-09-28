@@ -1,0 +1,18 @@
+{
+    "RawMaterialLotTrackingData": {
+        "lotNumber": "LOT-123456",
+        "materialId": "MAT-0001",
+        "quantity": 100,
+        "unitOfMeasure": "KG",
+        "expirationDate": "2023-05-15",
+        "manufacturer": "Acme Corporation",
+        "supplier": "XYZ Suppliers",
+        "receivingDate": "2022-08-10",
+        "status": "Active",
+        "notes": "This is a high-quality raw material.",
+        "attachments": [
+            "https://example.com/attachment1.pdf",
+            "https://example.com/attachment2.jpg"
+        ]
+    }
+}

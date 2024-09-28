@@ -1,0 +1,22 @@
+{
+    "name": "Electric Daisy Carnival",
+    "location": "Las Vegas, Nevada",
+    "dates": "June 16-18, 2023",
+    "campingRules": [
+        {
+            "name": "No open fires",
+            "description": "Fires must be contained in a designated fire pit.",
+            "penalty": "Fines and/or eviction from the campground."
+        },
+        {
+            "name": "Quiet hours",
+            "description": "Quiet hours are from 10pm to 8am.",
+            "penalty": "Verbal warning, followed by fines and/or eviction from the campground."
+        },
+        {
+            "name": "No pets",
+            "description": "Pets are not allowed in the campground.",
+            "penalty": "Fines and/or eviction from the campground."
+        }
+    ]
+}

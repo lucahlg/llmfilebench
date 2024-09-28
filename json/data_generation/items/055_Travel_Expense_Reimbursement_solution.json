@@ -1,0 +1,46 @@
+{
+    "business_trip_info": {
+        "name": "Alice Smith",
+        "department": "Marketing"
+    },
+    "expenses": [
+        {
+            "category": "Transportation",
+            "description": "Taxi fare from airport to hotel",
+            "amount": 25.5,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Accommodation",
+            "description": "Hotel room for two nights",
+            "amount": 120.0,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Meals",
+            "description": "Dinner at a local restaurant",
+            "amount": 35.75,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Miscellaneous",
+            "description": "Souvenirs and gifts",
+            "amount": 22.25,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Travel",
+            "description": "Flight tickets and travel insurance",
+            "amount": 150.0,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        }
+    ],
+    "total": 346.45,
+    "average_expense": {
+        "Transportation": 25.5,
+        "Accommodation": 120.0,
+        "Meals": 35.75,
+        "Miscellaneous": 22.25,
+        "Travel": 150.0
+    }
+}

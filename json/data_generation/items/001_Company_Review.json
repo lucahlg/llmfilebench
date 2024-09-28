@@ -1,0 +1,17 @@
+{
+    "companyId": "ABC123",
+    "reviewText": "This company provides excellent products and services. I highly recommend them.",
+    "rating": {
+        "overall": 4.5,
+        "productQuality": 5,
+        "customerService": 4
+    },
+    "companyName": "Acme Corporation",
+    "companyAddress": {
+        "streetAddress": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "postalCode": "12345"
+    },
+    "companyPhoneNumber": "(555) 555-1212"
+}

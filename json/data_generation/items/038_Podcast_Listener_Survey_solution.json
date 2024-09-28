@@ -1,0 +1,44 @@
+{
+    "listener": {
+        "age": 35,
+        "gender": "female",
+        "education": "college degree",
+        "personal_details": {
+            "age": 35,
+            "gender": "female",
+            "education": "college degree"
+        }
+    },
+    "podcast": {
+        "name": "The Daily",
+        "genre": "news",
+        "frequency": "daily",
+        "length": 20
+    },
+    "listener_behavior": {
+        "podcast_preferences": {
+            "genres": [
+                "news",
+                "comedy"
+            ],
+            "topics": [
+                "politics",
+                "current events",
+                "science"
+            ],
+            "formats": [
+                "solo",
+                "interview"
+            ],
+            "favorite_genres": [
+                "news",
+                "comedy"
+            ]
+        },
+        "listening_habits": {
+            "frequency": "daily",
+            "average_time": 30,
+            "total_listening_time": 90
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "campaignName": "Summer Blockbuster",
+    "movieTitle": "Alien Resurrection",
+    "startDate": "2023-05-15",
+    "endDate": "2023-08-31",
+    "budget": 10000000,
+    "state": "In Progress",
+    "additionalBudgets": {
+        "Merchandise": 1500000,
+        "Public Relations": 10000000
+    },
+    "tasks": [
+        {
+            "task_info": {
+                "task_name": "Create marketing materials",
+                "task_description": "Design and produce posters, trailers, and other marketing materials."
+            },
+            "assignedTo": "Sarah Jones",
+            "dueDate": "2023-05-25",
+            "state": "Completed"
+        },
+        {
+            "task_info": {
+                "task_name": "Book advertising space",
+                "task_description": "Secure advertising space in print, online, and broadcast media."
+            },
+            "assignedTo": "John Smith",
+            "dueDate": "2023-06-15",
+            "state": "Draft"
+        }
+    ],
+    "targetDemographics": [
+        {
+            "ageRange": "18-34",
+            "gender": "Male",
+            "location": "Urban",
+            "interests": [
+                "Action",
+                "Science Fiction"
+            ]
+        }
+    ],
+    "marketingChannels": [
+        {
+            "name": "Social Media",
+            "budget": 2000000,
+            "startDate": "2023-06-01",
+            "endDate": "2023-08-31"
+        },
+        {
+            "name": "Billboards",
+            "budget": 1000000,
+            "startDate": "2023-06-15",
+            "endDate": "2023-08-15"
+        },
+        {
+            "name": "Influencer Marketing",
+            "budget": 5000000,
+            "startDate": "2023-06-01",
+            "endDate": "2023-08-31"
+        },
+        {
+            "name": "Event Marketing",
+            "budget": 2000000,
+            "startDate": "2023-07-15",
+            "endDate": "2023-09-15"
+        }
+    ]
+}

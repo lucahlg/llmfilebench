@@ -1,0 +1,28 @@
+{
+    "businessName": "Acme Corporation",
+    "reportDate": "2023-03-08",
+    "revenue": 110000,
+    "expenses": [
+        {
+            "category": "Salaries and Wages",
+            "amount": 50000,
+            "details": "Breakdown of salaries and wages for employees"
+        },
+        {
+            "category": "Rent and Utilities",
+            "amount": 10000,
+            "details": "Details on rent, utilities, and other related expenses"
+        },
+        {
+            "category": "Marketing and Advertising",
+            "amount": 5000,
+            "details": "Information on marketing campaigns and advertising expenses"
+        },
+        {
+            "category": "Travel and Training",
+            "amount": 8000,
+            "details": "Details on travel-related expenses for employees"
+        }
+    ],
+    "profit": 34000
+}

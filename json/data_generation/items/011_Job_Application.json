@@ -1,0 +1,38 @@
+{
+    "contactInformation": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "email": "jane.doe@example.com",
+        "phoneNumber": "555-555-5555"
+    },
+    "workExperience": [
+        {
+            "company": "Acme Corporation",
+            "position": "Software Engineer",
+            "startDate": "2020-01-01",
+            "endDate": "2022-12-31",
+            "description": "Developed and maintained software applications."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "Bachelor of Science in Computer Science",
+            "startDate": "2016-08-01",
+            "endDate": "2020-05-31",
+            "gpa": 3.8
+        }
+    ],
+    "skills": [
+        "Java",
+        "Python",
+        "C++",
+        "SQL",
+        "NoSQL"
+    ],
+    "coverLetter": "Dear Hiring Manager,\n\nI am writing to express my interest in the Software Engineer position at your company. I have been working as a software engineer for the past two years, and I have a strong track record of success in developing and maintaining software applications.\n\nIn my previous role at Acme Corporation, I was responsible for developing and maintaining a variety of software applications, including a customer relationship management system, a financial reporting system, and a mobile app. I have experience with a variety of programming languages, including Java, Python, C++, SQL, and NoSQL.\n\nI am a highly motivated and results-oriented individual with a strong work ethic. I am also a team player and I am able to work effectively with others. I am confident that I have the skills and experience that you are looking for in a Software Engineer.\n\nI am available for an interview at your earliest convenience. Thank you for your time and consideration.\n\nSincerely,\n\nJane Doe",
+    "resume": "Jane Doe\n123 Main Street\nAnytown, CA 12345\n(555) 555-5555\njane.doe@example.com\n\nSummary\n\nSoftware engineer with 2+ years of experience developing and maintaining software applications. Proven ability to work independently and as part of a team. Strong skills in Java, Python, C++, SQL, and NoSQL.\n\nExperience\n\nAcme Corporation, Software Engineer, 2020-2022\n\nDeveloped and maintained a variety of software applications, including a customer relationship management system, a financial reporting system, and a mobile app.\n\nWorked with a team of engineers to design, implement, and test new features.\n\nTroubleshooted and resolved software bugs.\n\nEducation\n\nUniversity of California, Berkeley, Bachelor of Science in Computer Science, 2016-2020\n\nGPA: 3.8\n\nSkills\n\nJava\nPython\nC++\nSQL\nNoSQL\n\nAwards and Honors\n\nDean's List, every semester\nPresident's List, 2018-2019\n\nReferences\n\nAvailable upon request.",
+    "positionApplyingFor": "Software Engineer",
+    "referralSource": "Indeed",
+    "availability": "Within 1 month"
+}

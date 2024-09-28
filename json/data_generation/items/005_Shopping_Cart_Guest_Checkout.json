@@ -1,0 +1,29 @@
+{
+    "lineItems": [
+        {
+            "productId": "P12345",
+            "quantity": 2,
+            "unitPrice": 10.99,
+            "imageUrl": "https://example.com/product-image.jpg"
+        },
+        {
+            "productId": "P67890",
+            "quantity": 1,
+            "unitPrice": 19.99,
+            "imageUrl": "https://example.com/product-image2.jpg"
+        }
+    ],
+    "shippingAddress": {
+        "street": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    },
+    "paymentInfo": {
+        "cardNumber": "4111-1111-1111-1111",
+        "expirationDate": "12/24",
+        "cvv": "123"
+    },
+    "promoCode": "SUMMER10",
+    "orderNotes": "Please deliver the package before 5pm."
+}

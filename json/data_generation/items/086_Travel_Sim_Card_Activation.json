@@ -1,0 +1,27 @@
+{
+    "activationId": "ACT-1234",
+    "msisdn": "+1-234-567-8901",
+    "phoneNumber": "0123456789",
+    "customer": {
+        "customerId": "CUST-5678",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com"
+    },
+    "activationDate": "2023-03-08",
+    "activationStatus": "ACTIVE",
+    "dataUsage": 1024,
+    "callHistory": [
+        {
+            "callId": "CALL-1234",
+            "destination": "+1-567-890-1234",
+            "duration": 300,
+            "callDate": "2023-03-09"
+        },
+        {
+            "callId": "CALL-2345",
+            "destination": "+44-123-456-7890",
+            "duration": 600,
+            "callDate": "2023-03-10"
+        }
+    ]
+}

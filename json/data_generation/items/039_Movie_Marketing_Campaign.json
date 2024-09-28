@@ -1,0 +1,58 @@
+{
+    "campaignName": "Summer Blockbuster",
+    "movieTitle": "Alien Resurrection",
+    "startDate": "2023-05-15",
+    "endDate": "2023-08-31",
+    "budget": 10000000,
+    "state": "In Progress",
+    "tasks": [
+        {
+            "name": "Create marketing materials",
+            "description": "Design and produce posters, trailers, and other marketing materials.",
+            "assignedTo": "Sarah Jones",
+            "dueDate": "2023-06-01",
+            "state": "In Progress"
+        },
+        {
+            "name": "Book advertising space",
+            "description": "Secure advertising space in print, online, and broadcast media.",
+            "assignedTo": "John Smith",
+            "dueDate": "2023-06-15",
+            "state": "Draft"
+        }
+    ],
+    "targetDemographics": [
+        {
+            "ageRange": "18-34",
+            "gender": "Male",
+            "location": "Urban",
+            "interests": [
+                "Action",
+                "Science Fiction"
+            ]
+        },
+        {
+            "ageRange": "25-44",
+            "gender": "Female",
+            "location": "Suburban",
+            "interests": [
+                "Romance",
+                "Comedy"
+            ]
+        }
+    ],
+    "marketingChannels": [
+        {
+            "name": "Social Media",
+            "budget": 2000000,
+            "startDate": "2023-06-01",
+            "endDate": "2023-08-31"
+        },
+        {
+            "name": "Billboards",
+            "budget": 1000000,
+            "startDate": "2023-06-15",
+            "endDate": "2023-08-15"
+        }
+    ]
+}

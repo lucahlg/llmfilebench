@@ -1,0 +1,162 @@
+{
+    "floors": [
+        {
+            "floor_number": 1,
+            "rooms": [
+                {
+                    "room_type": "Patient Room",
+                    "area": 200,
+                    "beds": 2,
+                    "equipment": [
+                        {
+                            "name": "Bed",
+                            "type": "Bed",
+                            "quantity": 2
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Ventilator",
+                            "type": "Ventilator",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Defibrillator",
+                            "type": "Other",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "room_type": "Patient Room",
+                    "area": 200,
+                    "beds": 2,
+                    "equipment": [
+                        {
+                            "name": "Bed",
+                            "type": "Bed",
+                            "quantity": 2
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Ventilator",
+                            "type": "Ventilator",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "room_type": "Staff Room",
+                    "area": 100,
+                    "equipment": [
+                        {
+                            "name": "Desk",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Chair",
+                            "type": "Other",
+                            "quantity": 2
+                        },
+                        {
+                            "name": "Computer",
+                            "type": "Other",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "floor_number": 2,
+            "rooms": [
+                {
+                    "room_type": "Operating Room",
+                    "area": 300,
+                    "equipment": [
+                        {
+                            "name": "Surgical Table",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Anesthesia Machine",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "room_type": "Operating Room",
+                    "area": 300,
+                    "equipment": [
+                        {
+                            "name": "Surgical Table",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Anesthesia Machine",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Monitor",
+                            "type": "Monitor",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "room_type": "Waiting Room",
+                    "area": 150,
+                    "equipment": [
+                        {
+                            "name": "Chair",
+                            "type": "Other",
+                            "quantity": 10
+                        },
+                        {
+                            "name": "Television",
+                            "type": "Other",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Vending Machine",
+                            "type": "Other",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "floor_number": 3,
+            "rooms": []
+        }
+    ],
+    "hospital_info": {
+        "name": "Springfield General Hospital",
+        "address": "123 Springfield Dr"
+    },
+    "equipment": [
+        {
+            "name": "Oxygen Tank",
+            "type": "Other",
+            "quantity": 2
+        }
+    ]
+}

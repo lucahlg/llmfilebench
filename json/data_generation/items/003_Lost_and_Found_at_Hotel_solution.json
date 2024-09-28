@@ -1,0 +1,26 @@
+{
+    "id": 12345,
+    "foundDate": "2023-03-15",
+    "lastSeenLocation": {
+        "street": "Any Street",
+        "city": "New York City",
+        "zip": "10001"
+    },
+    "itemDescription": {
+        "category": "Personal Belongings",
+        "type": "Wallet",
+        "brand": "Gucci",
+        "color": "Black",
+        "size": "Small",
+        "serialNumber": "1234567890",
+        "condition": "Good"
+    },
+    "finder_info": {
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "123-456-7890"
+    },
+    "additional_details": {
+        "notes": "The wallet was found on a bench near the playground."
+    }
+}

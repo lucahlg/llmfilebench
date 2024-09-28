@@ -1,0 +1,12 @@
+{
+    "LicenseKey": {
+        "key": "ABC123-EFG456-HIJ789",
+        "product": "ProductB",
+        "version": "1.2.3",
+        "activationDate": "2023-08-14",
+        "expirationDate": "2025-08-14",
+        "seats": 5,
+        "activated": true,
+        "notes": "This license key is for the Acme Corporation."
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "sslCertificate": {
+        "domain": "www.example.com",
+        "certificateAuthority": {
+            "name": "DigiCert",
+            "email": "support@digicert.com",
+            "website": "https://www.digicert.com"
+        },
+        "validityPeriod": {
+            "start": "2023-03-08",
+            "end": "2025-03-07"
+        },
+        "keyAlgorithm": "RSA_2048",
+        "signatureAlgorithm": "SHA256withRSA",
+        "subjectAlternativeNames": [
+            "www.example.net",
+            "mail.example.com"
+        ],
+        "renewal": {
+            "enabled": true,
+            "period": {
+                "years": 1,
+                "months": 0,
+                "days": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": "PLAN-1234",
+    "supplier": "Acme Corporation",
+    "planNumber": "P-123456",
+    "planDate": "2023-03-08",
+    "planDueDate": "2023-04-15",
+    "planStatus": "In Progress",
+    "planActions": [
+        {
+            "id": "ACTION-1",
+            "action": "Develop project plan",
+            "actionDueDate": "2023-03-15",
+            "actionStatus": "In Progress",
+            "actionResponsible": "John Smith",
+            "actionNotes": "Gather requirements, define scope, and create timeline."
+        },
+        {
+            "id": "ACTION-2",
+            "action": "Design system architecture",
+            "actionDueDate": "2023-03-22",
+            "actionStatus": "Not Started",
+            "actionResponsible": "Jane Doe",
+            "actionNotes": "Create high-level design, identify components, and select technologies."
+        }
+    ],
+    "planDocuments": [
+        {
+            "id": "DOCUMENT-1",
+            "documentName": "Project Plan",
+            "documentType": "Procedure",
+            "documentDate": "2023-03-08",
+            "documentRevision": "1.0",
+            "documentLocation": "https://example.com/project-plan.pdf"
+        },
+        {
+            "id": "DOCUMENT-2",
+            "documentName": "System Architecture Design",
+            "documentType": "Work Instruction",
+            "documentDate": "2023-03-15",
+            "documentRevision": "0.5",
+            "documentLocation": "https://example.com/system-architecture-design.pdf"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "corporateGovernancePolicy": {
+        "shareholderRights": {
+            "votingRights": true,
+            "proxyVoting": true,
+            "cumulativeVoting": false,
+            "supermajorityRequirements": [
+                "Mergers and acquisitions",
+                "Sale of major assets",
+                "Changes to the company's charter or bylaws",
+                "Approval from at least 75% of shareholders present"
+            ]
+        },
+        "boardComposition": {
+            "size": 9,
+            "independenceRequirements": [
+                "No current or former executive officers of the company",
+                "No current or former employees of the company",
+                "No current or former business partners of the company"
+            ],
+            "termLimits": 3,
+            "retirementAge": 70
+        },
+        "executiveCompensation": {
+            "baseSalary": 1100000,
+            "bonus": 500000,
+            "stockOptions": 100000,
+            "educationAssistance": 20000,
+            "retirementBenefits": {
+                "pension": 100000,
+                "healthInsurance": true,
+                "lifeInsurance": true
+            }
+        },
+        "auditCommittee": {
+            "size": 4,
+            "members": [
+                {
+                    "name": "John Doe",
+                    "qualifications": "CPA, expert in financial regulations"
+                },
+                {
+                    "name": "Jane Smith",
+                    "qualifications": "CPA, expert in financial regulations"
+                }
+            ],
+            "termLimits": 2
+        },
+        "nominationCommittee": {
+            "size": 3,
+            "independenceRequirements": [
+                "No current or former executive officers of the company",
+                "No current or former employees of the company",
+                "No current or former business partners of the company"
+            ],
+            "termLimits": 2
+        },
+        "compensationCommittee": {
+            "size": 3,
+            "independenceRequirements": [
+                "No current or former executive officers of the company",
+                "No current or former employees of the company",
+                "No current or former business partners of the company"
+            ],
+            "termLimits": 2
+        }
+    }
+}

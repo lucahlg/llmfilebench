@@ -1,0 +1,49 @@
+{
+    "agreementId": "AG-123456789",
+    "serviceProvider": {
+        "name": "Acme Web Hosting",
+        "address": "123 Main Street, Anytown, CA 12345",
+        "phoneNumber": "1-800-555-1212",
+        "email": "support@acmewebhosting.com"
+    },
+    "customer": {
+        "name": "John Smith",
+        "address": "456 Elm Street, Anytown, CA 98765",
+        "phoneNumber": "1-800-555-9876",
+        "email": "john.smith@example.com"
+    },
+    "services": [
+        {
+            "serviceType": "webHosting",
+            "details": {
+                "description": "Shared web hosting with 10GB of storage and unlimited bandwidth.",
+                "price": 10.0
+            }
+        },
+        {
+            "serviceType": "emailHosting",
+            "details": {
+                "description": "Email hosting with 100GB of storage and unlimited email accounts.",
+                "price": 5.0
+            }
+        },
+        {
+            "serviceType": "domainRegistration",
+            "details": {
+                "description": "Registration of the domain name example.com for one year.",
+                "price": 15.0
+            }
+        },
+        {
+            "serviceType": "backupService",
+            "details": {
+                "description": "Automatic backups of your website files every night.",
+                "price": 2.0
+            }
+        }
+    ],
+    "startDate": "2023-03-01",
+    "endDate": "2024-02-28",
+    "paymentTerms": "monthly",
+    "terminationTerms": "Either party may terminate this agreement by providing 30 days written notice to the other party. Any outstanding balance must be paid in full before termination can occur."
+}

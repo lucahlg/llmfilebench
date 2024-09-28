@@ -1,0 +1,65 @@
+{
+    "businessName": "Acme Corporation",
+    "effectiveDate": "2023-03-08",
+    "shareholders": [
+        {
+            "person": {
+                "name": "Alice Smith",
+                "address": {
+                    "streetAddress": "123 Main Street",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip": "12345"
+                }
+            },
+            "sharesOwned": 100,
+            "votingRights": true
+        },
+        {
+            "person": {
+                "name": "Bob Jones",
+                "address": {
+                    "streetAddress": "456 Elm Street",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip": "12345"
+                }
+            },
+            "sharesOwned": 100,
+            "votingRights": true
+        }
+    ],
+    "votingProcedures": "Shareholders shall vote by a simple majority of the shares outstanding.",
+    "profitSharing": "Profits shall be shared equally among the shareholders.",
+    "capitalContributions": "Shareholders shall contribute equally to the capital of the business.",
+    "transferOfShares": "Shares may be transferred only with the consent of the other shareholders.",
+    "termination": "The business may be terminated by a vote of two-thirds of the shareholders.",
+    "disputeResolution": "Disputes shall be resolved through mediation or arbitration.",
+    "governingLaw": "This agreement shall be governed by the laws of the State of California.",
+    "signatures": [
+        {
+            "person": {
+                "name": "Alice Smith",
+                "address": {
+                    "streetAddress": "123 Main Street",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip": "12345"
+                }
+            },
+            "signatureDate": "2023-03-08"
+        },
+        {
+            "person": {
+                "name": "Bob Jones",
+                "address": {
+                    "streetAddress": "456 Elm Street",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip": "12345"
+                }
+            },
+            "signatureDate": "2023-03-08"
+        }
+    ]
+}

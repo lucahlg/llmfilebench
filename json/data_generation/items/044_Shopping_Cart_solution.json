@@ -1,0 +1,56 @@
+{
+    "items": [
+        {
+            "product": {
+                "id": 1,
+                "name": "Apple iPhone 13 Pro Max",
+                "description": "The latest and greatest iPhone from Apple, with a powerful A15 Bionic chip, a stunning 6.7-inch Super Retina XDR display, and a long-lasting battery.",
+                "price": 999.99
+            },
+            "quantity": 2
+        },
+        {
+            "product": {
+                "id": 2,
+                "name": "Samsung Galaxy S22 Ultra",
+                "description": "Samsung's top-of-the-line smartphone, with a powerful Snapdragon 8 Gen 1 processor, a gorgeous 6.8-inch Dynamic AMOLED 2X display, and a versatile quad-camera system, featuring rapid charging capabilities (up to 45W) and a long-lasting battery life.",
+                "price": 1199.99
+            },
+            "quantity": 1
+        },
+        {
+            "product": {
+                "id": 3,
+                "name": "Apple AirPods Pro",
+                "description": "Enjoy superior sound quality, extended battery life, and seamless connectivity with Apple's AirPods Pro.",
+                "price": 249.99
+            },
+            "quantity": 3
+        },
+        {
+            "product": {
+                "id": 4,
+                "name": "Amazon Echo Dot",
+                "description": "The compact and powerful Amazon Echo Dot, featuring a compact design, voice control, and seamless connectivity with Alexa.",
+                "price": 49.99
+            },
+            "quantity": 4
+        }
+    ],
+    "subtotal": 2199.98,
+    "discountApplied": true,
+    "tax": 120.0,
+    "total": 2099.98,
+    "shippingAddress": {
+        "name": "John Smith",
+        "address": "123 Main Street",
+        "city": "Anytown",
+        "zip": "91234"
+    },
+    "billingAddress": {
+        "name": "Jane Doe",
+        "address": "456 Elm Street",
+        "city": "Somewhere",
+        "zip": "12345"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "MyRule",
+    "description": "Allow TCP traffic from port 80 to port 8080 to the web server",
+    "protocol": "TCP",
+    "portRange": {
+        "startPort": 80,
+        "endPort": 8080
+    },
+    "virtualMachine": {
+        "name": "web-server",
+        "id": "1234567890123456789",
+        "projectId": "my-project"
+    },
+    "firewall": {
+        "name": "web-firewall",
+        "id": "0987654321098765432",
+        "direction": "INGRESS",
+        "network": "default",
+        "sourceRanges": [
+            "10.0.0.0/24"
+        ],
+        "targetTags": [
+            "web"
+        ],
+        "targetServiceAccounts": []
+    }
+}

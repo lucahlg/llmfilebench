@@ -1,0 +1,19 @@
+{
+    "testKits": [
+        {
+            "name": "MyAwesomeTestKit",
+            "instructions": {
+                "steps": [
+                    "Prepare the test environment.",
+                    "Run the test cases.",
+                    "Analyze the test results."
+                ]
+            },
+            "warnings": [
+                {
+                    "text": "This test kit is intended for experienced users only."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "report": {
+        "id": "INSP-001",
+        "inspectionDate": "2023-03-08",
+        "inspectorName": "Jane Doe",
+        "inspectionItems": [
+            {
+                "id": "ITEM-001",
+                "name": "Product Quality",
+                "description": "Inspection of the product's quality and adherence to specifications.",
+                "inspectionCriteria": [
+                    "Visual inspection for defects",
+                    "Dimensional measurements",
+                    "Functional testing"
+                ],
+                "inspectionResults": [
+                    "No defects found",
+                    "All dimensions within tolerance",
+                    "Product functions as expected"
+                ],
+                "status": "passed"
+            },
+            {
+                "id": "ITEM-002",
+                "name": "Packaging Integrity",
+                "description": "Inspection of the product's packaging for damage or defects.",
+                "inspectionCriteria": [
+                    "Visual inspection for damage",
+                    "Check for proper labeling and markings",
+                    "Ensure product is securely packaged"
+                ],
+                "inspectionResults": [
+                    "No damage found",
+                    "Proper labeling and markings present",
+                    "Product securely packaged"
+                ],
+                "status": "passed"
+            },
+            {
+                "id": "ITEM-003",
+                "name": "Documentation Review",
+                "description": "Review of the product's documentation for completeness and accuracy.",
+                "inspectionCriteria": [
+                    "Check for user manual and warranty information",
+                    "Verify compliance with regulatory requirements",
+                    "Ensure documentation is clear and easy to understand"
+                ],
+                "inspectionResults": [
+                    "User manual and warranty information present",
+                    "Product complies with regulatory requirements",
+                    "Documentation is clear and easy to understand"
+                ],
+                "status": "passed"
+            }
+        ],
+        "overallStatus": "passed",
+        "comments": "Overall, the product meets all quality standards and is ready for shipment."
+    }
+}

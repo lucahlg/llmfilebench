@@ -1,0 +1,21 @@
+{
+    "travelerInfo": {
+        "name": "Aiden Smith",
+        "email": "aiden.smith@emailworld.com",
+        "phoneNumber": "+1234567890"
+    },
+    "changeType": "Hotel",
+    "hotelChangeRequest": {
+        "hotelName": "Grand Hotel Downtown",
+        "checkInDate": "2023-08-16",
+        "checkOutDate": "2023-08-17",
+        "newArrivalTime": null,
+        "newDepartureDate": null
+    },
+    "reasonForChange": "I need to reschedule my hotel booking due to a change in business travel plans.",
+    "travelerType": "Business",
+    "specialRequests": {
+        "mealPreference": "Vegetarian",
+        "seatPreferance": "Window seat, if available"
+    }
+}

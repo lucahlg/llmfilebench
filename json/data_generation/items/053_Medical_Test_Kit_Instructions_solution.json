@@ -1,0 +1,39 @@
+{
+    "testKits": [
+        {
+            "name": "UpdatedTestKit",
+            "warnings": [
+                {
+                    "text": "This test kit is intended for experienced users only."
+                }
+            ]
+        },
+        {
+            "name": "NewTestKit",
+            "instructions": {
+                "steps": [
+                    "Review the test kit documentation.",
+                    "Prepare the test environment.",
+                    "Run the test cases.",
+                    "Analyze the test results."
+                ]
+            },
+            "warnings": [
+                {
+                    "text": "This new test kit requires administrative privileges."
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "version": 1,
+        "warnings": [
+            {
+                "text": "This test kit is intended for experienced users only."
+            },
+            {
+                "text": "This new test kit requires administrative privileges."
+            }
+        ]
+    }
+}

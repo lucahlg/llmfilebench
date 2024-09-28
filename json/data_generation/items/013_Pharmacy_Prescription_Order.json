@@ -1,0 +1,24 @@
+{
+    "patient": {
+        "firstName": "Aiden",
+        "lastName": "Smith",
+        "dateOfBirth": "1990-01-01",
+        "gender": "male",
+        "medicareNumber": "1234567890"
+    },
+    "doctor": {
+        "firstName": "Olivia",
+        "lastName": "Jones",
+        "qualifications": "MBBS",
+        "registrationNumber": "123456"
+    },
+    "medication": {
+        "name": "Paracetamol",
+        "dosage": "500mg",
+        "units": "tablets",
+        "frequency": "twice a day",
+        "duration": "7 days"
+    },
+    "notes": "Patient has a history of headaches.",
+    "date": "2023-03-08"
+}

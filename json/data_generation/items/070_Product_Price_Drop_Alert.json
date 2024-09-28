@@ -1,0 +1,14 @@
+{
+    "product": {
+        "id": "prod_123",
+        "name": "iPhone 13 Pro Max",
+        "price": 999.99
+    },
+    "alert": {
+        "id": "alert_456",
+        "productId": "prod_123",
+        "email": "johndoe@example.com",
+        "priceThreshold": 899.99,
+        "active": true
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Acme Corporation",
+    "location": {
+        "address": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    },
+    "personnel": [
+        {
+            "name": "John Smith",
+            "role": "Manager",
+            "contactInfo": {
+                "phone": "(123) 456-7890",
+                "email": "john.smith@acme.com"
+            }
+        },
+        {
+            "name": "Jane Doe",
+            "role": "Employee",
+            "contactInfo": {
+                "phone": "(234) 567-8901",
+                "email": "jane.doe@acme.com"
+            }
+        }
+    ],
+    "procedures": [
+        {
+            "name": "Fire Drill",
+            "description": "In the event of a fire, all employees should evacuate the building immediately.",
+            "steps": [
+                "Activate the fire alarm.",
+                "Leave the building by the nearest exit.",
+                "Go to the designated assembly area.",
+                "Wait for further instructions from emergency personnel."
+            ]
+        },
+        {
+            "name": "Earthquake Drill",
+            "description": "In the event of an earthquake, all employees should drop to the ground, take cover under a sturdy table or desk, and hold on until the shaking stops.",
+            "steps": [
+                "Drop to the ground.",
+                "Take cover under a sturdy table or desk.",
+                "Hold on until the shaking stops.",
+                "Once the shaking has stopped, check for injuries and damage."
+            ]
+        }
+    ]
+}

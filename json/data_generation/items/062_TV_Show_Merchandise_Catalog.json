@@ -1,0 +1,41 @@
+{
+    "catalogs": [
+        {
+            "id": "00000000-0000-0000-0000-000000000001",
+            "name": "TV Show Merchandise Catalog",
+            "description": "This catalog contains a variety of merchandise related to popular TV shows.",
+            "tvShows": [
+                {
+                    "id": "10000000-0000-0000-0000-000000000001",
+                    "name": "The Office",
+                    "description": "The Office is an American mockumentary sitcom that depicts the everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company.",
+                    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/The_Office_poster.jpg/220px-The_Office_poster.jpg"
+                },
+                {
+                    "id": "20000000-0000-0000-0000-000000000001",
+                    "name": "Friends",
+                    "description": "Friends is an American television sitcom created by David Crane and Marta Kauffman that aired on NBC from September 22, 1994, to May 6, 2004.",
+                    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Friends_S1_P1.png/220px-Friends_S1_P1.png"
+                }
+            ],
+            "merchandise": [
+                {
+                    "id": "30000000-0000-0000-0000-000000000001",
+                    "name": "The Office T-Shirt",
+                    "description": "This T-shirt features the iconic logo of The Office.",
+                    "price": 19.99,
+                    "imageUrl": "https://www.nbcstore.com/the-office-logo-t-shirt/130000000001.html",
+                    "inStock": true
+                },
+                {
+                    "id": "40000000-0000-0000-0000-000000000001",
+                    "name": "Friends Central Perk Mug",
+                    "description": "This mug is a replica of the coffee mug used by the characters in Friends.",
+                    "price": 14.99,
+                    "imageUrl": "https://www.amazon.com/Friends-Central-Perk-Coffee-Mug/dp/B00005O4VU",
+                    "inStock": true
+                }
+            ]
+        }
+    ]
+}

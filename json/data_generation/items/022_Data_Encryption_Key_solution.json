@@ -1,0 +1,25 @@
+{
+    "name": "projects/my-project/locations/us-east1/keyRings/my-key-ring/cryptoKeys/my-key",
+    "purpose": "ENCRYPT_DECRYPT",
+    "rotationDetails": {
+        "rotationWindow": "14d",
+        "nextRotationTimeWarning": "7d"
+    },
+    "labels": {
+        "team": "alpha"
+    },
+    "metadata": {
+        "team": "alpha"
+    },
+    "protectionLevel": "SOFTWARE",
+    "nextRotationTime": "2023-01-01T00:00:00Z",
+    "rotationPeriod": "24h",
+    "keyVersion": [
+        {
+            "name": "projects/my-project/locations/us-east1/keyRings/my-key-ring/cryptoKeys/my-key/cryptoKeyVersions/456",
+            "state": "ENABLED"
+        }
+    ],
+    "createTime": "2022-01-01T00:00:00Z",
+    "state": "ENABLED"
+}

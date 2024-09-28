@@ -149,3 +149,4 @@ The instruction with the tasks you need to perform on the JSON object are as fol
 {{instruction_content}}
 
 Output only the JSON object that represents the expected result after performing the tasks outlined in the instructions. Don't include any additional information in the output.
+The output should be a valid JSON object that can be directly parsed by a JSON parser.

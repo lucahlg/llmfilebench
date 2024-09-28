@@ -1,0 +1,53 @@
+{
+    "Introduction": {
+        "reportingPeriod": "2022",
+        "reportingYear": "2023",
+        "auditorName": "Deloitte",
+        "auditorAddress": "New York, USA"
+    },
+    "ESGPerformance": {
+        "greenhouseGasEmissions": 8000,
+        "waterConsumption": 30000
+    },
+    "TargetsAndPerformance": {
+        "renewableEnergyTarget": 50000,
+        "reducingGreenhouseGasEmissionsTarget": 20000
+    },
+    "StakeholderEngagement": {
+        "employeeEngagementRate": 90,
+        "supplierEngagementRate": 80
+    },
+    "Assurance": {
+        "reportingScope": "Acme Corporation",
+        "auditorReportDate": "2023-03-01"
+    },
+    "performanceData": {
+        "greenhouseGasEmissions": 10000,
+        "waterConsumption": 50000,
+        "employeeTurnoverRate": 10
+    },
+    "GRIIndex": [
+        {
+            "GRIStandard": "102-1",
+            "description": "Name of the organization",
+            "disclosure": "Acme Corporation",
+            "page": 1
+        }
+    ],
+    "UNGCIndex": [
+        {
+            "UNGCPrinciple": "1",
+            "description": "Respect for human rights",
+            "disclosure": "Acme Corporation is committed to respecting human rights in all of its operations.",
+            "page": 4
+        }
+    ],
+    "SASBIndex": [
+        {
+            "SASBStandard": "IF-EU-000.A",
+            "description": "Greenhouse gas emissions",
+            "disclosure": "Acme Corporation's greenhouse gas emissions in 2022 were 10,000 metric tons.",
+            "page": 7
+        }
+    ]
+}

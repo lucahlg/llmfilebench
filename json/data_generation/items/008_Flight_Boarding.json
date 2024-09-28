@@ -1,0 +1,28 @@
+{
+    "header": {
+        "passenger": {
+            "name": "Aiden Smith",
+            "passportNumber": "G45678912"
+        },
+        "flightNumber": "BA1234",
+        "seatNumber": "12A",
+        "boardingTime": "15:30"
+    },
+    "flights": [
+        {
+            "number": "BA1234",
+            "departureAirport": "LHR",
+            "arrivalAirport": "JFK",
+            "departureTime": "16:00",
+            "arrivalTime": "20:00"
+        },
+        {
+            "number": "BA5678",
+            "departureAirport": "JFK",
+            "arrivalAirport": "LAX",
+            "departureTime": "21:00",
+            "arrivalTime": "00:00"
+        }
+    ],
+    "notes": "Please proceed to Gate 25 for boarding."
+}

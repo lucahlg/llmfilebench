@@ -1,0 +1,40 @@
+{
+    "productId": 12345,
+    "productName": "Acme SuperWidget",
+    "productCategory": "Gadgets",
+    "warrantyPeriod": "2 years",
+    "productSpecifications": [
+        {
+            "specificationName": "Processor",
+            "specificationValue": "1.2GHz quad-core"
+        },
+        {
+            "specificationName": "Memory",
+            "specificationValue": "2GB RAM"
+        },
+        {
+            "specificationName": "Storage",
+            "specificationValue": "32GB"
+        },
+        {
+            "specificationName": "Display",
+            "specificationValue": "5-inch touchscreen"
+        },
+        {
+            "specificationName": "Battery",
+            "specificationValue": "3,000mAh"
+        },
+        {
+            "specificationName": "Operating System",
+            "specificationValue": "Android 11"
+        }
+    ],
+    "details": {
+        "description": "The Acme SuperWidget is the most advanced widget on the market. It features a sleek design, a powerful processor, and a long-lasting battery.",
+        "features": [
+            "sleek design",
+            "powerful processor",
+            "long-lasting battery"
+        ]
+    }
+}

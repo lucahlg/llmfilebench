@@ -1,0 +1,107 @@
+{
+    "title": "Changeover Instructions for XYZ Production Line",
+    "productionLine": {
+        "name": "XYZ Production Line",
+        "location": "Building 1, Floor 2",
+        "products": [
+            "Product A",
+            "Product B",
+            "Product C",
+            {
+                "name": "Product D",
+                "description": "A high-quality product made with the finest materials and cutting-edge technology."
+            }
+        ]
+    },
+    "product": {
+        "name": "Product A",
+        "description": "A high-quality product made with the finest materials."
+    },
+    "changeoverSteps": [
+        {
+            "details": {
+                "estimatedTime": 30,
+                "prerequisites": [
+                    "Ensure that all necessary materials are available",
+                    "Obtain the required safety gear"
+                ],
+                "materials": [
+                    "Cleaning supplies",
+                    "Inspection checklist"
+                ],
+                "safetyConsiderations": [
+                    "Wear appropriate safety gear",
+                    "Follow all safety procedures"
+                ]
+            },
+            "stepNumber": 1,
+            "description": "Prepare the production line by cleaning and inspecting all equipment."
+        },
+        {
+            "details": {
+                "estimatedTime": 60,
+                "prerequisites": [
+                    "Review the new product specifications",
+                    "Calibrate the equipment"
+                ],
+                "materials": [
+                    "New product specifications",
+                    "Calibration tools",
+                    "Specific type of gloves"
+                ],
+                "safetyConsiderations": [
+                    "Follow all safety procedures",
+                    "Ensure that all adjustments are made correctly"
+                ]
+            },
+            "stepNumber": 2,
+            "description": "Adjust the production line settings according to the new product specifications."
+        },
+        {
+            "details": {
+                "estimatedTime": 45,
+                "prerequisites": [
+                    "Verify that the new product materials are compatible with the production line",
+                    "Ensure that the materials are properly labeled",
+                    "Comply with regulatory requirements"
+                ],
+                "materials": [
+                    "New product materials",
+                    "Material handling equipment",
+                    "Specific type of gloves"
+                ],
+                "safetyConsiderations": [
+                    "Follow all safety procedures",
+                    "Wear appropriate protective gear"
+                ]
+            },
+            "stepNumber": 3,
+            "description": "Load the new product materials into the production line."
+        },
+        {
+            "details": {
+                "estimatedTime": 15,
+                "prerequisites": [
+                    "Ensure that all safety procedures are followed",
+                    "Verify that the production line is operating properly"
+                ],
+                "materials": [
+                    "Production monitoring equipment"
+                ],
+                "safetyConsiderations": [
+                    "Follow all safety procedures",
+                    "Be prepared to adjust the production line settings if necessary"
+                ]
+            },
+            "stepNumber": 4,
+            "description": "Start the production line and monitor the initial production run."
+        }
+    ],
+    "safetyProcedures": [
+        "Always wear appropriate safety gear.",
+        "Follow all safety instructions and procedures.",
+        "Be aware of potential hazards and take appropriate precautions.",
+        "Report any unsafe conditions or practices immediately.",
+        "Regularly maintain equipment to prevent accidents."
+    ]
+}

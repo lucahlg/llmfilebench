@@ -1,0 +1,64 @@
+{
+    "name": "Acme Corporation",
+    "headquarters": {
+        "address": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    },
+    "personnel": [
+        {
+            "name": "John Smith",
+            "role": "Manager",
+            "contactInfo": {
+                "email": "john.smith@acme.com"
+            }
+        },
+        {
+            "name": "Jane Doe",
+            "role": "Employee",
+            "contactInfo": {
+                "email": "jane.doe@acme.com"
+            }
+        },
+        {
+            "name": "Bob Johnson",
+            "role": "HR Representative",
+            "contactInfo": {
+                "phone": "(901) 234-5678",
+                "email": "bob.johnson@acme.com"
+            }
+        }
+    ],
+    "procedures": [
+        {
+            "name": "Fire Drill",
+            "description": "In the event of a fire, all employees should evacuate the building immediately.",
+            "steps": [
+                "Activate the fire alarm.",
+                "Leave the building by the nearest exit.",
+                "Go to the designated assembly area.",
+                "Wait for further instructions from emergency personnel."
+            ]
+        },
+        {
+            "name": "Earthquake Drill",
+            "description": "In the event of an earthquake, all employees should drop to the ground, take cover under a sturdy table or desk, and hold on until the shaking stops.",
+            "steps": [
+                "Drop to the ground.",
+                "Take cover under a sturdy table or desk.",
+                "Hold on until the shaking stops.",
+                "Once the shaking has stopped, check for injuries and damage."
+            ]
+        },
+        {
+            "name": "Severe Weather Warning",
+            "description": "In the event of severe weather, all employees should take necessary precautions and follow emergency guidelines.",
+            "steps": [
+                "Monitor local news for updates.",
+                "Take necessary precautions based on weather conditions.",
+                "Follow emergency guidelines from authorities."
+            ]
+        }
+    ]
+}

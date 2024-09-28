@@ -1,0 +1,35 @@
+{
+    "employee": {
+        "name": "Alice Smith",
+        "department": "Marketing"
+    },
+    "expenses": [
+        {
+            "category": "Transportation",
+            "description": "Taxi fare from airport to hotel",
+            "amount": 25.5,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Accommodation",
+            "description": "Hotel room for two nights",
+            "amount": 120.0,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Meals",
+            "description": "Dinner at a local restaurant",
+            "amount": 35.75,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        },
+        {
+            "category": "Miscellaneous",
+            "description": "Souvenirs and gifts",
+            "amount": 22.25,
+            "receipt": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+        }
+    ],
+    "total": 203.5,
+    "notes": "Please reimburse me for these expenses incurred during my business trip to San Francisco.",
+    "status": "Pending"
+}

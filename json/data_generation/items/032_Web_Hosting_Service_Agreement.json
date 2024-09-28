@@ -1,0 +1,37 @@
+{
+    "agreementId": "AG-123456789",
+    "serviceProvider": {
+        "name": "Acme Web Hosting",
+        "address": "123 Main Street, Anytown, CA 12345",
+        "phoneNumber": "1-800-555-1212",
+        "email": "support@acmewebhosting.com"
+    },
+    "customer": {
+        "name": "John Smith",
+        "address": "456 Elm Street, Anytown, CA 98765",
+        "phoneNumber": "1-800-555-9876",
+        "email": "john.smith@example.com"
+    },
+    "services": [
+        {
+            "serviceType": "webHosting",
+            "description": "Shared web hosting with 10GB of storage and unlimited bandwidth.",
+            "price": 10.0
+        },
+        {
+            "serviceType": "emailHosting",
+            "description": "Email hosting with 100GB of storage and unlimited email accounts.",
+            "price": 5.0
+        },
+        {
+            "serviceType": "domainRegistration",
+            "description": "Registration of the domain name example.com for one year.",
+            "price": 15.0
+        }
+    ],
+    "startDate": "2023-03-08",
+    "endDate": "2024-03-07",
+    "paymentTerms": "monthly",
+    "terminationTerms": "Either party may terminate this agreement by providing 30 days written notice to the other party.",
+    "additionalTerms": "This agreement is subject to the laws of the State of California."
+}

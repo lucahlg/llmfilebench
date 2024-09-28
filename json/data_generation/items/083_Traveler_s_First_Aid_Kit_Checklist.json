@@ -1,0 +1,45 @@
+{
+    "owner": {
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "555-123-4567"
+    },
+    "emergency_contacts": [
+        {
+            "name": "John Smith",
+            "email": "john.smith@example.com",
+            "phone": "555-234-5678",
+            "relationship": "Father"
+        },
+        {
+            "name": "Jane Doe",
+            "email": "jane.doe@example.com",
+            "phone": "555-345-6789",
+            "relationship": "Mother"
+        }
+    ],
+    "medical_conditions": [
+        {
+            "name": "Asthma",
+            "medication": "Albuterol inhaler",
+            "dosage": "2 puffs every 4 hours as needed",
+            "frequency": "As needed",
+            "notes": "Use only if experiencing difficulty breathing."
+        },
+        {
+            "name": "Diabetes",
+            "medication": "Insulin",
+            "dosage": "10 units in the morning and 10 units in the evening",
+            "frequency": "Twice daily",
+            "notes": "Monitor blood sugar levels regularly."
+        }
+    ],
+    "supplies": {
+        "bandages": 10,
+        "gauze": 5,
+        "tape": 3,
+        "antiseptic": 2,
+        "pain_relievers": 20,
+        "antihistamines": 10
+    }
+}

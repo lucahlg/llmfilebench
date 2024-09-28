@@ -1,0 +1,34 @@
+{
+    "id": "RX123456789",
+    "patient": {
+        "id": "PT123456789",
+        "name": "Jane Doe",
+        "dateOfBirth": "1980-01-01",
+        "gender": "female"
+    },
+    "prescriber": {
+        "id": "PR123456789",
+        "name": "Dr. John Smith",
+        "qualification": "MD",
+        "contactNumber": "555-123-4567"
+    },
+    "medication": {
+        "id": "MD123456789",
+        "name": "Acetaminophen",
+        "dosage": "500 mg",
+        "frequency": "Every 6 hours",
+        "route": "Oral",
+        "duration": "10 days"
+    },
+    "pharmacy": {
+        "id": "PH123456789",
+        "name": "ABC Pharmacy",
+        "address": "123 Main Street, Anytown, CA 12345",
+        "contactNumber": "555-987-6543"
+    },
+    "dispensingDate": "2023-03-08",
+    "quantityDispensed": 30,
+    "refillsAllowed": 2,
+    "instructions": "Take two tablets every six hours as needed for pain.",
+    "signature": "Dr. John Smith"
+}

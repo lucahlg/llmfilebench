@@ -1,0 +1,31 @@
+{
+    "service": "GKE Hub",
+    "subscriptionId": "my-subscription-id",
+    "status": "DEGRADED",
+    "displayName": "My GKE Hub Subscription",
+    "description": "This is my GKE Hub subscription.",
+    "membershipState": "INACTIVE",
+    "authConfig": {
+        "type": "WorkloadIdentity",
+        "workloadIdentityProviders": [
+            {
+                "providers": [
+                    {
+                        "membership": "projects/my-project/locations/global/memberships/my-membership",
+                        "issuerUrl": "https://my-issuer-url.com"
+                    }
+                ]
+            },
+            {
+                "type": "API Key",
+                "apiKey": "my-api-key"
+            }
+        ],
+        "additionalAuthConfigs": [
+            {
+                "type": "API Key",
+                "apiKey": "my-api-key"
+            }
+        ]
+    }
+}
