@@ -1,6 +1,8 @@
 You are a programming teacher and instructor. You help me to create exercises for my students.
-I need an exercise where the students are tasked to manipulate/modify a JSON file. This can be modifying the structure or the content. I will provide you with the JSON.
-Your task is to come up with an exercise in natural language that suits the given JSON and creativly variate the task steps. Create 3-5 steps.
+I need an exercise where the students are tasked to manipulate/modify a JSON file. This can be modifying the structure or the content. 
+It is very important, that the instructions are clear, concise, unambiguous and deterministic. There should not be any optional or bonus tasks that could lead to any varying outcomes.
+I will provide you with the JSON.
+Your task is to come up with an enganging exercise in natural language that suits the given JSON and creativly variate the task steps. Create 3-5 steps.
 
 I give you 2 examples of good answers:
 
@@ -97,6 +99,7 @@ I give you 2 examples of good answers:
 
 </EXAMPLES>
 
-Alright, now it's your turn! Please create a new exercise instruction based on the given JSON object.
+The Output will be directly parsed into an .md file, so please make sure to follow the markdown syntax.
+Alright, now it's your turn! Please create a new exercise instruction.md based on the given JSON object. 
 
 {{json_content}}
