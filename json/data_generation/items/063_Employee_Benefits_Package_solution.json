@@ -1,0 +1,45 @@
+{
+    "benefits": [
+        {
+            "name": "Health Insurance",
+            "description": "Provides coverage for medical expenses.",
+            "cost": 100,
+            "coverage": "PPO"
+        },
+        {
+            "name": "Dental Insurance",
+            "description": "Provides coverage for dental expenses.",
+            "cost": 50,
+            "coverage": "HMO"
+        },
+        {
+            "name": "Life Insurance",
+            "description": "Provides coverage for death benefits.",
+            "cost": 35,
+            "coverage": "Term"
+        },
+        {
+            "name": "Disability Insurance",
+            "description": "Provides coverage for disability benefits.",
+            "cost": 25,
+            "coverage": "Short-Term"
+        },
+        {
+            "name": "Retirement Savings Plan",
+            "description": "Provides coverage for retirement savings.",
+            "cost": 50,
+            "coverage": "401(k)"
+        },
+        {
+            "name": "Short-Term Disability Insurance",
+            "description": "Provides coverage for short-term disability benefits.",
+            "cost": 75,
+            "coverage": "Short-Term"
+        }
+    ],
+    "premium_info": {
+        "cost": 300,
+        "coverage": "Comprehensive coverage for all basic benefits."
+    },
+    "expiration_date": "2024-12-31"
+}

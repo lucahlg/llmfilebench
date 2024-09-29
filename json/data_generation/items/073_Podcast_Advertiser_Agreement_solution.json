@@ -1,0 +1,28 @@
+{
+    "advertiser": {
+        "name": "Acme Corp.",
+        "address": "Anytown, CA",
+        "phone": "555-555-5555",
+        "industry": "Technology"
+    },
+    "podcast": {
+        "title": "The Acme Podcast",
+        "description": "A weekly podcast about all things Acme Corporation.",
+        "category": "Business -> Marketing",
+        "artworkUrl": "https://acmecorp.com/podcast/artwork.jpg",
+        "genre": "Interviews",
+        "language": "English"
+    },
+    "agreement": {
+        "id": 12345,
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "amount": 10000,
+        "paymentTerms": "Net 30",
+        "taxRate": 8
+    },
+    "communications": {
+        "notes": "Please send all invoices to accountspayable@acmecorp.com.",
+        "contactMethod": "Email"
+    }
+}

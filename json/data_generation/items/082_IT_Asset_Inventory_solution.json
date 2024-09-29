@@ -1,0 +1,29 @@
+{
+    "id": "25c5058d-42b3-4095-887e-22856a757212",
+    "name": "Dell Latitude 5420",
+    "description": "This is a high-performance laptop with a 14-inch display and a long battery life.",
+    "location": {
+        "building": "Building 1",
+        "floor": "2",
+        "room": "201"
+    },
+    "contact": {
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "555-123-4567"
+    },
+    "condition": "used",
+    "ownership_info": {
+        "purchaseDate": "2023-03-08",
+        "warrantyExpirationDate": "2025-03-07",
+        "serialNumber": "ABCDEF123456"
+    },
+    "modelNumber": "5420",
+    "manufacturer": "Dell",
+    "cost": 950.0,
+    "status": "inactive",
+    "technical_info": {
+        "processor_type": "Intel Core i7",
+        "ram_capacity": "16 GB"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "middleName": "Anne"
+    },
+    "relationship": "Partner",
+    "contactInfo": {
+        "phoneNumber": "(555) 555-5555",
+        "emailAddress": "jane.doe@example.com",
+        "address": {
+            "physicalLocation": {
+                "streetAddress": "123 Main Street",
+                "city": "Anytown",
+                "zipCode": "91234"
+            },
+            "state": "CA"
+        },
+        "smsNumber": "(555) 123-4567"
+    }
+}

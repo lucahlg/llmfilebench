@@ -1,0 +1,22 @@
+{
+    "header": {
+        "passenger": {
+            "name": "Aiden Smith"
+        },
+        "flightNumber": "BA1234",
+        "seatNumber": "12A",
+        "boardingTime": "14:30",
+        "traveler": {
+            "type": "business",
+            "fare": "$500.00"
+        },
+        "personal_details": {
+            "passportNumber": "G45678912",
+            "emergencyContactName": "Samantha Smith",
+            "emergencyContactPhone": "555-1234"
+        }
+    },
+    "flight_info": {
+        "notes": "Please proceed to Gate 25 for boarding. and do not forget your passport!"
+    }
+}

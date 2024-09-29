@@ -1,0 +1,69 @@
+{
+    "owner": {
+        "name": "Sarah Johnson",
+        "email": "sarah.jones@example.com",
+        "phone": "555-123-4567",
+        "SSN": "XXX-XX-XXXX"
+    },
+    "emergency_contacts": [
+        {
+            "name": "John Smith",
+            "email": "john.smith@example.com",
+            "relationship": "Father"
+        },
+        {
+            "name": "Jane Doe",
+            "email": "jane.doe@example.com",
+            "relationship": "Mother"
+        },
+        {
+            "name": "Emily Chen",
+            "email": "emily.chen@example.com",
+            "relationship": "Sister"
+        }
+    ],
+    "medical_conditions": [
+        {
+            "name": "Asthma",
+            "medication": "Albuterol inhaler",
+            "dosage": "3 puffs every 4 hours as needed",
+            "frequency": "As needed",
+            "notes": "Use only if experiencing difficulty breathing.",
+            "physician_notes": ""
+        },
+        {
+            "name": "Diabetes",
+            "medication": "Insulin",
+            "dosage": "10 units in the morning and 10 units in the evening",
+            "frequency": "Twice daily",
+            "notes": "Monitor blood sugar levels regularly.",
+            "physician_notes": ""
+        }
+    ],
+    "supplies": [
+        {
+            "name": "Bandages",
+            "quantity": 10
+        },
+        {
+            "name": "Gauze",
+            "quantity": 5
+        },
+        {
+            "name": "Tape",
+            "quantity": 3
+        },
+        {
+            "name": "Antiseptic",
+            "quantity": 2
+        },
+        {
+            "name": "Pain Relievers",
+            "quantity": 20
+        },
+        {
+            "name": "Antihistamines",
+            "quantity": 10
+        }
+    ]
+}

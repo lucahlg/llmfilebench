@@ -1,0 +1,64 @@
+{
+    "productionDate": "2023-03-08",
+    "product": {
+        "name": "Chocolate Bar",
+        "unit": "EA",
+        "category": "Confectionery",
+        "shelfLife": "6 months"
+    },
+    "rawMaterials": [
+        {
+            "name": "Cocoa Beans",
+            "quantity": 100,
+            "unit": "KG"
+        },
+        {
+            "name": "Sugar",
+            "quantity": 50,
+            "unit": "KG"
+        },
+        {
+            "name": "Butter",
+            "quantity": 20,
+            "unit": "KG"
+        },
+        {
+            "name": "Milk Powder",
+            "quantity": 30,
+            "unit": "KG"
+        }
+    ],
+    "productionProcess": {
+        "steps": [
+            {
+                "name": "Roasting Cocoa Beans",
+                "duration": 120,
+                "yield": 95
+            },
+            {
+                "name": "Grinding Cocoa Beans",
+                "duration": 75,
+                "yield": 90
+            },
+            {
+                "name": "Mixing Ingredients",
+                "duration": 30,
+                "yield": 100
+            },
+            {
+                "name": "Molding Chocolate",
+                "duration": 60,
+                "yield": 95
+            },
+            {
+                "name": "Packaging Chocolate Bars",
+                "duration": 30,
+                "yield": 100
+            }
+        ]
+    },
+    "totalQuantityProduced": 1000,
+    "totalDuration": 300,
+    "overallYield": 85.5,
+    "totalRawMaterialCost": 1790
+}

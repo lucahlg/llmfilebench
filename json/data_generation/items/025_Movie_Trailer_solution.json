@@ -1,0 +1,38 @@
+{
+    "id": 1,
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "An epic fantasy adventure about a group of hobbits who must travel to Mount Doom to destroy the One Ring.",
+    "releaseDate": "2003-12-19",
+    "genres": [
+        "Fantasy",
+        "Adventure",
+        "Drama"
+    ],
+    "duration": 178,
+    "url": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+    "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+    "productionDetails": {
+        "castMembers": [
+            {
+                "name": "Elijah Wood",
+                "role": "Frodo Baggins"
+            },
+            {
+                "name": "Ian McKellen",
+                "role": "Gandalf"
+            },
+            {
+                "name": "Viggo Mortensen",
+                "role": "Aragorn"
+            },
+            {
+                "name": "Orlando Bloom",
+                "role": "Legolas"
+            },
+            {
+                "name": "John Rhys-Davies",
+                "role": "Gimli"
+            }
+        ]
+    }
+}

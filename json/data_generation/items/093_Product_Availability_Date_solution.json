@@ -1,0 +1,33 @@
+{
+    "ProductAvailabilityDate": {
+        "availabilityDate": "2023-03-08",
+        "availabilityStatus": "out of stock",
+        "store": [
+            {
+                "storeName": "Best Buy",
+                "storeLocation": "123 Main Street, Anytown, CA 91234",
+                "storePhone": "(555) 555-5555",
+                "storeHours": "Monday-Friday: 10am-9pm, Saturday: 10am-6pm, Sunday: 12pm-5pm"
+            },
+            {
+                "storeName": "CostCo",
+                "storeLocation": "<new_location>",
+                "storePhone": "(555) 555-5555",
+                "storeHours": "Monday-Friday: 10am-9pm, Saturday: 10am-6pm, Sunday: 12pm-5pm"
+            }
+        ],
+        "productDescription": {
+            "brand": "Brand X",
+            "modelNumber": "ABC123",
+            "features": [
+                "4K resolution",
+                "HDR support"
+            ]
+        },
+        "inventory": {
+            "quantityAvailable": 10,
+            "unitsInStock": 50,
+            "reorderThreshold": 20
+        }
+    }
+}

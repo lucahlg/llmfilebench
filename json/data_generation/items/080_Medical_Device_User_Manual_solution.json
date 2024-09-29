@@ -1,0 +1,43 @@
+{
+    "deviceName": "Acme Blood Pressure Monitor",
+    "deviceManufacturer": "Acme Corporation",
+    "softwareVersion": "2.0.0",
+    "publicationResources": [
+        {
+            "language": "en-US",
+            "size": 12345,
+            "url": "https://example.com/user-manual-en-US.pdf",
+            "contentType": "application/pdf",
+            "creationDate": "2023-03-08T12:00:00Z"
+        },
+        {
+            "language": "es-ES",
+            "size": 13456,
+            "url": "https://example.com/user-manual-es-ES.pdf",
+            "contentType": "application/pdf",
+            "creationDate": "2023-03-09T13:00:00Z"
+        },
+        {
+            "language": "fr-FR",
+            "size": 14567,
+            "url": "https://example.com/user-manual-fr-FR.pdf",
+            "contentType": "application/pdf",
+            "creationDate": "2023-03-10T14:00:00Z"
+        }
+    ],
+    "intendedAudience": "Healthcare professionals and patients, Caregivers",
+    "contentStructure": {
+        "introduction": {
+            "title": "Introduction",
+            "content": "This user manual provides instructions on how to use the Acme Blood Pressure Monitor."
+        },
+        "gettingStarted": {
+            "title": "Getting Started",
+            "content": "To get started, insert the batteries into the device and turn it on."
+        },
+        "takingABloodPressureMeasurement": {
+            "title": "Taking a Blood Pressure Measurement",
+            "content": "To take a blood pressure measurement, follow these steps:"
+        }
+    }
+}

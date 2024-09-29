@@ -1,0 +1,18 @@
+{
+    "handling_code": "C",
+    "general_handling_instructions": {
+        "handling_description": "Handle with care. Do not drop or crush."
+    },
+    "storage_conditions": [
+        "Cool and dry",
+        "Avoid direct sunlight",
+        "Protect from contamination"
+    ],
+    "safety_precautions": {
+        "keep_away_from": [
+            "heat",
+            "moisture"
+        ],
+        "additional_steps": "Take extra precautions when handling."
+    }
+}

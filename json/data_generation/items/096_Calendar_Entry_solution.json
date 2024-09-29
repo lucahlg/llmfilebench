@@ -1,0 +1,53 @@
+{
+    "id": "1234567890",
+    "summary": "Discuss Project Progress",
+    "description": "Discuss the upcoming project.",
+    "location": {
+        "placeId": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+        "displayName": "Googleplex, Mountain View Campus",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+        "floorNumber": "3"
+    },
+    "start": {
+        "dateTime": "2023-03-08T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+        "dateTime": "2023-03-08T11:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+    },
+    "recurrence": [
+        "RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=TU,TH"
+    ],
+    "recurringDetails": {
+        "endTime": "2023-03-15T11:00:00-07:00",
+        "endDate": "2023-04-01"
+    },
+    "attendees": [
+        {
+            "email": "alice@example.com",
+            "displayName": "Alice Smith",
+            "status": "accepted"
+        },
+        {
+            "email": "bob@example.com",
+            "displayName": "Bob Jones",
+            "status": "tentative"
+        },
+        {
+            "email": "charlie@example.com",
+            "displayName": "Charlie Brown",
+            "status": "declined"
+        }
+    ],
+    "reminders": [
+        {
+            "minutes": 60,
+            "method": "popup"
+        }
+    ],
+    "organizer": {
+        "email": "organizer@example.com",
+        "displayName": "Organizer Name"
+    }
+}

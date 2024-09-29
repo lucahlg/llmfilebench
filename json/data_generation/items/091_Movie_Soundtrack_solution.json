@@ -1,0 +1,47 @@
+{
+    "movie": {
+        "name": "The Shawshank Redemption",
+        "year": 1994,
+        "director": "Frank Darabont",
+        "cast": [
+            "Tim ROBBINS",
+            "Morgan FREEMAN",
+            "Bob GUNTON"
+        ],
+        "genres": [
+            {
+                "name": "Drama",
+                "rating": "8.5/10"
+            },
+            {
+                "name": "Crime",
+                "rating": "8.0/10"
+            }
+        ],
+        "production_details": {
+            "runtime": 142
+        }
+    },
+    "soundtrack": [
+        {
+            "title": "Hope",
+            "artist": "Thomas Newman",
+            "length": 180
+        },
+        {
+            "title": "Brooks Was Here",
+            "artist": "James Newton Howard",
+            "length": 240
+        }
+    ],
+    "artists": [
+        {
+            "name": "Thomas Newman",
+            "awards": "Academy Award Nomination for Best Original Score"
+        },
+        {
+            "name": "James Newton Howard",
+            "awards": "Academy Award Nomination for Best Original Score"
+        }
+    ]
+}

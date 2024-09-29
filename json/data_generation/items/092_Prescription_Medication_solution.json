@@ -1,0 +1,30 @@
+{
+    "prescription": {
+        "prescriptionId": "RX123456",
+        "patient": {
+            "patientId": "PT123456",
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "dateOfBirth": "1980-01-01",
+            "gender": "female",
+            "medicalConditions": [
+                "Asthma",
+                "Hypertension"
+            ],
+            "medicalCondition": "Diabetes"
+        },
+        "medication": {
+            "medicationId": "MD123456",
+            "name": "Albuterol",
+            "dosage": 300,
+            "units": "mcg",
+            "instructions": "Inhale 3 puffs every 6-8 hours as needed for shortness of breath.",
+            "refills": 3
+        },
+        "datePrescribed": "2023-03-08",
+        "prescriptionInfo": {
+            "expirationDate": "2023-09-07",
+            "status": "active"
+        }
+    }
+}

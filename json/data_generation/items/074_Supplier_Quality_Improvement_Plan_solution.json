@@ -1,0 +1,47 @@
+{
+    "id": "PLAN-1234",
+    "project_info": {
+        "supplier_name": "Acme Corporation",
+        "supplier_contact": "john.smith@example.com"
+    },
+    "planNumber": "P-123456",
+    "planDate": "2023-03-08",
+    "planDueDate": "2023-04-15",
+    "planStatus": "On Hold",
+    "planActions": [
+        {
+            "id": "ACTION-1",
+            "action": "Develop project plan",
+            "actionDueDate": "2023-03-15",
+            "actionStatus": "In Progress",
+            "actionResponsible": "John Smith",
+            "actionNotes": "Gather requirements, define scope, and create timeline."
+        },
+        {
+            "id": "ACTION-2",
+            "action": "Design system architecture",
+            "actionDueDate": "2023-03-22",
+            "actionStatus": "Not Started",
+            "actionResponsible": "Jane Doe",
+            "actionNotes": "Create high-level design, identify components, and select technologies."
+        },
+        {
+            "id": "ACTION-3",
+            "action": "Conduct stakeholder analysis",
+            "actionDueDate": "2023-03-29",
+            "actionStatus": "Not Started",
+            "actionResponsible": "Bob Johnson",
+            "actionNotes": "Identify key stakeholders, assess their interests and influence."
+        }
+    ],
+    "planDocuments": [
+        {
+            "id": "DOCUMENT-1",
+            "documentName": "Project Plan",
+            "documentType": "Procedure",
+            "documentDate": "2023-03-08",
+            "documentRevision": "1.5",
+            "documentLocation": "https://example.com/project-plan.pdf"
+        }
+    ]
+}

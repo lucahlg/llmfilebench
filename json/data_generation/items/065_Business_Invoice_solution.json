@@ -1,0 +1,50 @@
+{
+    "invoice_number": "INV-12345",
+    "invoice_date": "2023-03-20",
+    "customer": {
+        "name": "Acme Corporation",
+        "address": "100 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip_code": "91234",
+        "customer_representative": {
+            "name": "John Smith",
+            "phone_number": "555-1234",
+            "email": "john.smith@example.com"
+        }
+    },
+    "seller": {
+        "name": "XYZ Company",
+        "address": "200 Oak Avenue",
+        "city": "Big City",
+        "state": "NY",
+        "zip_code": "12345"
+    },
+    "items": [
+        {
+            "name": "Product A",
+            "pricing_info": {
+                "quantity": 10,
+                "unit_price": 10.0,
+                "total_price": 100.0
+            }
+        },
+        {
+            "name": "Product B",
+            "pricing_info": {
+                "quantity": 20,
+                "unit_price": 5.0,
+                "total_price": 100.0
+            }
+        },
+        {
+            "name": "Product C",
+            "pricing_info": {
+                "quantity": 30,
+                "unit_price": 1.0,
+                "total_price": 30.0
+            }
+        }
+    ],
+    "total_amount": 230.0
+}

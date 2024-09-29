@@ -1,0 +1,34 @@
+{
+    "maintenanceRecord": {
+        "_id": "62014048f772308953047285",
+        "machineId": "M-1001",
+        "maintenanceType": "Routine Maintenance",
+        "maintenanceDate": "2023-05-20",
+        "maintenanceDetails": "Performed general maintenance tasks, including cleaning, lubrication, and inspection of all components. Replaced worn bearings and seals.",
+        "maintenanceDuration": 4,
+        "maintenanceCost": 250,
+        "performedBy": "John Smith",
+        "additionalServices": [
+            "Oil change",
+            "Tire rotation",
+            "Battery replacement"
+        ]
+    },
+    "supportingDocuments": [
+        {
+            "attachmentName": "Maintenance Report",
+            "attachmentType": "Document",
+            "attachmentUrl": "https://example.com/maintenance-report.pdf"
+        },
+        {
+            "attachmentName": "Machine Inspection Photos",
+            "attachmentType": "Image",
+            "attachmentUrl": "https://example.com/machine-inspection-photos.zip"
+        },
+        {
+            "attachmentName": "Updated Maintenance Report",
+            "attachmentType": "Document",
+            "attachmentUrl": "https://example.com/updated-maintenance-report.pdf"
+        }
+    ]
+}

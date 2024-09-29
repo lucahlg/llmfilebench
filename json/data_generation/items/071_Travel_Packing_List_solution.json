@@ -1,0 +1,104 @@
+{
+    "name": "Trip to Paris",
+    "destination": "Paris, France",
+    "startDate": "2023-02-22",
+    "endDate": "2023-03-15",
+    "categories": [
+        {
+            "name": "Food",
+            "description": "Restaurants, cafes, and markets to visit."
+        },
+        {
+            "name": "Attractions",
+            "description": "Museums, monuments, and other tourist spots."
+        },
+        {
+            "name": "Shopping",
+            "description": "Boutiques, department stores, and flea markets."
+        },
+        {
+            "name": "Nature",
+            "description": "Parks, gardens, and other green spaces to explore."
+        }
+    ],
+    "items": [
+        {
+            "name": "Eiffel Tower",
+            "quantity": 1,
+            "notes": "Visit the observation deck for stunning city views.",
+            "metadata": {
+                "type": [
+                    "must-see",
+                    "iconic"
+                ]
+            }
+        },
+        {
+            "name": "Louvre Museum",
+            "quantity": 1,
+            "notes": "See the Mona Lisa and other masterpieces.",
+            "metadata": {
+                "theme": [
+                    "art",
+                    "history"
+                ]
+            }
+        },
+        {
+            "name": "Notre Dame Cathedral",
+            "quantity": 1,
+            "notes": "Admire the Gothic architecture and stained glass windows.",
+            "metadata": {
+                "type": [
+                    "religious",
+                    "historical"
+                ]
+            }
+        },
+        {
+            "name": "Macarons",
+            "quantity": 12,
+            "notes": "Try different flavors from Ladur\u00e9e or Pierre Herm\u00e9.",
+            "metadata": {
+                "theme": [
+                    "sweet",
+                    "treat"
+                ]
+            }
+        },
+        {
+            "name": "Souvenirs",
+            "quantity": 5,
+            "notes": "Buy Eiffel Tower keychains, postcards, and other mementos.",
+            "metadata": {
+                "type": [
+                    "gifts",
+                    "keepsakes"
+                ]
+            }
+        },
+        {
+            "name": "River Seine Cruise",
+            "quantity": 1,
+            "notes": "Enjoy a romantic evening cruise along the Seine.",
+            "metadata": {
+                "theme": [
+                    "relaxing",
+                    "scenic"
+                ]
+            }
+        },
+        {
+            "name": "Montmartre Art Museum",
+            "quantity": 2,
+            "notes": "Visit the museum to see works by famous artists like Monet and Renoir.",
+            "metadata": {
+                "type": [
+                    "art",
+                    "culture"
+                ]
+            }
+        }
+    ],
+    "notes": "Pack comfortable shoes for all the walking you'll be doing!"
+}

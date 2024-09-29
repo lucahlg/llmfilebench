@@ -1,0 +1,25 @@
+{
+    "patient": {
+        "name": "Emma Watson",
+        "address": "123 Main Street, Springfield",
+        "phoneNumber": "555-123-4567",
+        "dateOfBirth": "1990-05-12"
+    },
+    "legalRepresentative": {
+        "name": "John Smith",
+        "address": "456 Elm Street, Springfield",
+        "phoneNumber": "555-234-5678"
+    },
+    "procedure": "Hysterectomy",
+    "hospital": {
+        "name": "Springfield General Hospital",
+        "address": "789 Oak Street, Springfield",
+        "phoneNumber": "555-901-2345"
+    },
+    "appointmentInfo": {
+        "scheduledDate": "2023-03-08",
+        "signatureDate": "Signature Date"
+    },
+    "additionalInfo": "I understand that the procedure may involve risks, including infection, bleeding, and pain. I have been given the opportunity to ask questions about the procedure and I am satisfied with the answers I have received. I have also reviewed and signed the consent form.",
+    "signature": "Patient Signature: Emma Watson"
+}

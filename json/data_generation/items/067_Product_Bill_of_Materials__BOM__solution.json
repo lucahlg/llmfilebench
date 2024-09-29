@@ -1,0 +1,38 @@
+{
+    "type": "Assembly",
+    "id": "ASSY-12345",
+    "name": "Product A Assembly V2",
+    "description": "This assembly represents the complete product A.",
+    "assembly": {
+        "id": "ASSY-12345-SUB",
+        "name": "Product A Sub-Assembly",
+        "description": "This sub-assembly is used in the Product A Assembly.",
+        "components": [
+            {
+                "id": "COMP-23456",
+                "name": "Component 2",
+                "quantity": 5,
+                "unitOfMeasure": "DOZEN",
+                "description": "This component is also used in the Product A Sub-Assembly.",
+                "component_details": {
+                    "supplier": "Supplier B",
+                    "leadTime": 3,
+                    "cost": 15.0
+                }
+            },
+            {
+                "id": "COMP-56789",
+                "name": "Component 3",
+                "quantity": 7,
+                "unitOfMeasure": "UNIT",
+                "description": "This component is used in the Product A Assembly for testing purposes.",
+                "component_details": {
+                    "supplier": "Supplier C",
+                    "leadTime": 2,
+                    "cost": 20.0
+                }
+            }
+        ],
+        "manufacturing_date": "2022-01-01"
+    }
+}

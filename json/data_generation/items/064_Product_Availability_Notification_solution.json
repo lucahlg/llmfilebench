@@ -1,0 +1,30 @@
+{
+    "productId": "ABC123",
+    "creationDate": "2023-03-08T12:00:00Z",
+    "availabilityStatus": "PreProduction",
+    "expectedAvailabilityDate": "2023-03-15",
+    "notificationChannel": [
+        "Email",
+        "SMS"
+    ],
+    "recipient": {
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345"
+        }
+    },
+    "productVariants": [
+        {
+            "size": "Small",
+            "color": "Red"
+        },
+        {
+            "size": "Medium",
+            "color": "Blue"
+        }
+    ]
+}

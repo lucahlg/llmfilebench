@@ -1,0 +1,41 @@
+{
+    "quotationId": "QTN-12345",
+    "supplier": {
+        "supplierId": "SUP-1001",
+        "supplierName": "Acme Suppliers Inc.",
+        "address": {
+            "streetAddress": "123 Main Street",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "12345"
+        },
+        "contactPerson": "John Smith"
+    },
+    "expirationDate": "2023-06-15",
+    "items": [
+        {
+            "itemId": "ITEM-1001",
+            "description": "Widget A",
+            "unitPrice": 10.0,
+            "quantity": 10
+        },
+        {
+            "itemId": "ITEM-1002",
+            "description": "Widget B",
+            "unitPrice": 15.0,
+            "quantity": 5
+        },
+        {
+            "itemId": "ITEM-1003",
+            "description": "Widget C",
+            "unitPrice": 20.0,
+            "quantity": 7
+        }
+    ],
+    "summary": {
+        "subTotal": 265.0,
+        "tax": 26.5,
+        "total": 291.5
+    },
+    "termsAndConditions": "Net 30 days"
+}

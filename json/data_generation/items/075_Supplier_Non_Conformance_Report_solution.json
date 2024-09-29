@@ -1,0 +1,47 @@
+{
+    "supplierInfo": {
+        "supplierName": "Acme Manufacturing",
+        "supplierAddress": "123 Main Street, Anytown, CA 91234",
+        "supplierContact": "Jane Doe",
+        "supplierEmail": "jane.doe@acmemanufacturing.com",
+        "supplierPhoneNumber": "(555) 555-1212"
+    },
+    "nonConformanceDetails": {
+        "nonConformanceType": "Material Defect",
+        "nonConformanceDescription": "The supplier delivered a batch of widgets that did not meet our specifications. The widgets were made of a different material than what was specified in the purchase order.",
+        "impactedQuantity": 50,
+        "impactedLotNumbers": [
+            "LOT12345",
+            "LOT54321"
+        ],
+        "nonConformanceDate": "2023-03-08",
+        "correctiveActions": [
+            "The supplier has agreed to replace the non-conforming widgets with conforming widgets.",
+            "The supplier has implemented a new quality control process to ensure that this type of non-conformance does not happen again."
+        ],
+        "preventiveActions": [
+            "We will be working with the supplier to develop a new supplier quality assurance program.",
+            "We will be conducting more frequent inspections of the supplier's manufacturing facility."
+        ]
+    },
+    "documents": {
+        "attachment1": {
+            "attachmentName": "Supplier Corrective Action Plan.pdf",
+            "attachmentType": "PDF",
+            "attachmentUrl": "https://example.com/supplier-corrective-action-plan.pdf"
+        },
+        "attachment2": {
+            "attachmentName": "Supplier Inspection Report.docx",
+            "attachmentType": "Word Document",
+            "attachmentUrl": "https://example.com/supplier-inspection-report.docx"
+        },
+        "newAttachment": {
+            "attachmentName": "Supplier Root Cause Analysis Report.pdf",
+            "attachmentType": "PDF",
+            "attachmentUrl": "https://example.com/supplier-root-cause-analysis-report.pdf"
+        }
+    },
+    "reportNumber": "NCR-2023-001",
+    "reportDate": "2023-03-15",
+    "reportStatus": "Closed"
+}

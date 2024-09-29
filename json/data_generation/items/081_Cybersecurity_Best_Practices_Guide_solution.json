@@ -1,0 +1,60 @@
+{
+    "name": "My Security Framework",
+    "authors": [
+        "Alicia",
+        "Bob"
+    ],
+    "guidelines": [
+        {
+            "title": "Secure Coding Practices",
+            "description": "This guideline provides recommendations for secure coding practices.",
+            "controls": [
+                {
+                    "name": "Use strong passwords"
+                },
+                {
+                    "name": "Validate user input"
+                }
+            ]
+        },
+        {
+            "title": "Network Security",
+            "description": "This guideline provides recommendations for securing networks.",
+            "controls": [
+                {
+                    "name": "Use a firewall"
+                },
+                {
+                    "name": "Use intrusion detection and prevention systems"
+                }
+            ]
+        },
+        {
+            "title": "Compliance",
+            "description": "This guideline provides recommendations for ensuring compliance with relevant regulations and standards.",
+            "controls": [
+                {
+                    "name": "Conduct regular audits"
+                },
+                {
+                    "name": "Maintain accurate records"
+                }
+            ]
+        }
+    ],
+    "controlDescriptions": {
+        "Secure Coding Practices": {
+            "Use strong passwords": "Use passwords that are at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and symbols.",
+            "Validate user input": "Validate user input to prevent malicious code from being executed."
+        },
+        "Network Security": {
+            "Use a firewall": "Use a firewall to block unauthorized access to your network.",
+            "Use intrusion detection and prevention systems": "Use intrusion detection and prevention systems to detect and block malicious activity on your network."
+        },
+        "Compliance": {
+            "Conduct regular audits": "Conduct regular audits to ensure compliance with relevant regulations and standards.",
+            "Maintain accurate records": "Maintain accurate and up-to-date records of all security-related activities."
+        }
+    },
+    "nextVersion": "1.0.1"
+}

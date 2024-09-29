@@ -1,0 +1,27 @@
+{
+    "checkoutInfo": {
+        "guestInfo": {
+            "id": 12345,
+            "name": {
+                "first_name": "Jane",
+                "last_name": "Doe"
+            },
+            "contact": {
+                "email": "jane.doe@example.com"
+            }
+        },
+        "room": {
+            "roomId": 23456,
+            "roomType": "Single Bed",
+            "capacity": 2,
+            "beds": 1
+        },
+        "checkoutDate": "2023-03-08",
+        "checkoutTime": "11:00"
+    },
+    "paymentMethod": {
+        "type": "Credit Card",
+        "cardNumber": "1234-5678-9012-3456",
+        "expirationDate": "2025-12-31"
+    }
+}
