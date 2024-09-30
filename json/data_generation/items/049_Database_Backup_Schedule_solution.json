@@ -1,0 +1,15 @@
+{
+    "name": "my-backup",
+    "source": "projects/my-project/instances/my-instance",
+    "backupPolicy": {
+        "count": 7,
+        "expireDays": 14,
+        "retentionPeriodDays": 60
+    },
+    "exportOptions": {
+        "fileCompressionSource": "ZIP",
+        "targetEncoding": "PLAIN_TEXT"
+    },
+    "dataLimit": 1073741824,
+    "description": "Weekly Backup with 60-Day Retention and ZIP Compression"
+}

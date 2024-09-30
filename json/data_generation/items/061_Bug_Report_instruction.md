@@ -16,6 +16,3 @@ You are provided with a JSON file describing a bug report. Your tasks are as fol
     - "size": 54321
 
 Remember to maintain the proper JSON structure while making these modifications. 
-
-
-

@@ -1,0 +1,48 @@
+{
+    "employer": {
+        "name": "Acme Corporation",
+        "address": {
+            "streetAddress": "123 Main Street",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "91234"
+        },
+        "contactInformation": {
+            "email": "hr@acmecorp.com",
+            "phoneNumber": "(555) 555-5555"
+        }
+    },
+    "employee": {
+        "name": "Jane Doe",
+        "position": "Senior Software Engineer",
+        "startDate": "2020-01-01",
+        "endDate": "2023-03-08",
+        "performanceReviews": [
+            {
+                "date": "2022-06-30",
+                "rating": "Needs Improvement",
+                "comments": "Areas for improvement in communication and collaboration."
+            },
+            {
+                "date": "2022-12-15",
+                "rating": "Below Expectations",
+                "comments": "Continued challenges in meeting project deadlines and quality standards."
+            }
+        ]
+    },
+    "terminationDate": "2023-03-09",
+    "terminationReason": "Performance Issues",
+    "terminationDetails": {
+        "date": "2023-03-08",
+        "reason": "Failure to meet performance expectations."
+    },
+    "signature": {
+        "name": "John Smith",
+        "title": "HR Manager"
+    },
+    "date": "2023-03-09",
+    "terminationDocumentation": [
+        "TerminationNotice.pdf",
+        "PerformanceImprovementPlan.docx"
+    ]
+}

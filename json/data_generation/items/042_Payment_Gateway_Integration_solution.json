@@ -1,0 +1,13 @@
+{
+    "status": "active",
+    "credentials": {
+        "key": "KEY_PLACEHOLDER",
+        "secret": "SECRET_PLACEHOLDER"
+    },
+    "config": {
+        "currency": "EUR",
+        "descriptor": "Acme Corp",
+        "statementDescriptor": "Acme Corp Services"
+    },
+    "twoFactorAuth": true
+}
