@@ -1,0 +1,16 @@
+{
+    "title": "My Awesome Poster",
+    "posterSize": "A2",
+    "artworkFile": {
+        "artworkType": "Vector",
+        "url": "https://example.com/my-awesome-poster.svg",
+        "width": 420,
+        "height": 594
+    },
+    "designRequest": "Please create a futuristic design featuring geometric shapes and vibrant colors. The poster should convey a sense of innovation and excitement.",
+    "colorPalette": [
+        "#FF0000",
+        "#00FF00",
+        "#0000FF"
+    ]
+}

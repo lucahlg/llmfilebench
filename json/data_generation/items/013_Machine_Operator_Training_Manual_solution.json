@@ -1,0 +1,91 @@
+{
+    "title": "Lathe Operation Manual",
+    "chapters": [
+        {
+            "chapterNumber": 1,
+            "title": "Introduction to Lathes",
+            "sections": [
+                {
+                    "number": 1,
+                    "title": "What is a Lathe?",
+                    "content": "A lathe is a machine tool that rotates a workpiece on its axis to perform various cutting operations. ",
+                    "precautions": [
+                        "Always wear appropriate safety glasses and gloves when operating a lathe.",
+                        "Ensure the work area is clean and free of debris."
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 2,
+            "title": "Lathe Operation",
+            "sections": [
+                {
+                    "number": 1,
+                    "title": "Setting Up the Lathe",
+                    "content": "Before you can start using a lathe, you need to set it up properly. This includes setting the speed, feed, and depth of cut, as well as mounting the workpiece securely.",
+                    "media": [
+                        "setting-up-the-lathe.mp4"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "title": "Basic Lathe Operations",
+                    "content": "Once the lathe is set up, you can start performing basic operations, such as turning, facing, and boring.",
+                    "media": [
+                        "turning.jpg",
+                        "facing.jpg",
+                        "boring.jpg"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "title": "Advanced Lathe Operations",
+                    "content": "Once you have mastered the basics, you can start learning more advanced operations, such as threading, knurling, and drilling.",
+                    "media": [
+                        "threading.mp4",
+                        "knurling.mp4",
+                        "drilling.mp4"
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 3,
+            "title": "Lathe Maintenance",
+            "sections": [
+                {
+                    "number": 1,
+                    "title": "Cleaning and Lubrication",
+                    "content": "It is important to keep your lathe clean and lubricated to ensure that it operates properly and lasts for many years.",
+                    "media": [
+                        "cleaning-the-lathe.jpg",
+                        "lubricating-the-lathe.jpg"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "title": "Troubleshooting",
+                    "content": "If you encounter any problems with your lathe, there are a few things you can do to troubleshoot the issue.",
+                    "media": [
+                        "troubleshooting-lathe-problems.mp4"
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary_json": {
+        "axis of rotation": "The imaginary line around which an object rotates.",
+        "chuck": "A device used to hold a workpiece in place on a lathe.",
+        "feed": "The rate at which the cutting tool moves across the workpiece.",
+        "lathe bed": "The main structural component of a lathe, which supports the headstock, tailstock, and carriage.",
+        "spindle": "The rotating shaft that holds the workpiece."
+    },
+    "index_json": [
+        "axis of rotation",
+        "chuck",
+        "feed",
+        "lathe bed",
+        "spindle"
+    ]
+}

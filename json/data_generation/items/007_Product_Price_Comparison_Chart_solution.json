@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "name": "iPhone 13 Pro Max",
+            "description": "Apple's most advanced iPhone yet, with a powerful A15 Bionic chip, a stunning Super Retina XDR display, and a pro-grade camera system.",
+            "image": "https://store.apple.com/content/dam/apple/us/iphone/home/images/meta/iphone-13-pro-max_meta_og.png",
+            "link": "https://store.apple.com/buy-iphone/iphone-13-pro",
+            "prices": [
+                {
+                    "retailer": "Amazon",
+                    "price": 999.0
+                },
+                {
+                    "retailer": "Best Buy",
+                    "price": 999.0
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy S22 Ultra",
+            "description": "Samsung's most advanced smartphone yet, with a powerful Snapdragon 8 Gen 1 processor, a stunning 6.8-inch Dynamic AMOLED 2X display, and a pro-grade camera system.",
+            "image": "https://www.samsung.com/us/smartphones/galaxy-s22-ultra/buy/",
+            "link": "https://www.samsung.com/us/smartphones/galaxy-s22-ultra/buy/",
+            "prices": [
+                {
+                    "retailer": "Amazon",
+                    "price": 1199.0
+                },
+                {
+                    "retailer": "Best Buy",
+                    "price": 1199.0
+                }
+            ]
+        }
+    ]
+}

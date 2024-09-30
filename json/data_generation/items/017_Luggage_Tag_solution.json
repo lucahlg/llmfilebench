@@ -1,0 +1,24 @@
+{
+    "id": 123456789,
+    "passenger": {
+        "firstName": "Jane",
+        "lastName": "Doe"
+    },
+    "deliveryAddress": {
+        "streetAddress": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zipCode": "91234"
+    },
+    "tagColor": "blue",
+    "isFragile": false,
+    "description": "This is a fragile package weighing 2 kg that contains valuable items. Please handle with care.",
+    "image": "https://example.com/image.jpg",
+    "dimensions": [
+        30,
+        20,
+        15
+    ],
+    "contact": "+9876543210",
+    "deliveryInstructions": "Leave package at the doorstep."
+}

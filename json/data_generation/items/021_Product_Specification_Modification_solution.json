@@ -1,0 +1,28 @@
+{
+    "description": "Specifies the color options available for this product.",
+    "id": "product-spec-modification-1",
+    "productSpecCharacteristic": {
+        "id": "product-spec-characteristic-1",
+        "name": "Color"
+    },
+    "productSpecCharacteristicValue": [
+        {
+            "id": "product-spec-characteristic-value-1",
+            "valueType": {
+                "id": "product-spec-characteristic-value-type-1",
+                "name": "String"
+            },
+            "value": "Red"
+        },
+        {
+            "id": "product-spec-characteristic-value-2",
+            "valueType": {
+                "id": "product-spec-characteristic-value-type-1",
+                "name": "String"
+            },
+            "value": "Blue"
+        }
+    ],
+    "implementationDate": "2023-04-15",
+    "implementationConstraint": "Must be implemented on all new products starting April 15th, 2023"
+}

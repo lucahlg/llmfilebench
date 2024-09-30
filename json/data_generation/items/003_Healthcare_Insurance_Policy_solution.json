@@ -1,0 +1,66 @@
+{
+    "policyNumber": "1234567890",
+    "startDate": "2023-04-01",
+    "expirationDate": "2024-03-31",
+    "policyholder": {
+        "id": "628a2058-0097-484e-9149-1f874f71072f",
+        "name": "Aiden Smith",
+        "contactInfo": {
+            "phoneNumber": "555-123-4567",
+            "email": "aiden.smith@example.com",
+            "address": {
+                "streetAddress": "123 Main Street",
+                "city": "Anytown",
+                "state": "CA",
+                "zipCode": "91234"
+            }
+        }
+    },
+    "dependents": [
+        {
+            "id": "6926371c-129f-404e-8699-51670409876b",
+            "name": "Isabella Smith",
+            "email": "isabella.smith@example.com",
+            "phoneNumber": "555-234-5678",
+            "address": {
+                "streetAddress": "123 Main Street",
+                "city": "Anytown",
+                "state": "CA",
+                "zipCode": "91234"
+            }
+        },
+        {
+            "id": "b37f920a-c5d4-468e-b721-f8b05342d1c9",
+            "name": "Ethan Smith",
+            "email": "ethan.smith@example.com",
+            "phoneNumber": "555-345-6789",
+            "address": {
+                "streetAddress": "123 Main Street",
+                "city": "Anytown",
+                "state": "CA",
+                "zipCode": "91234"
+            }
+        }
+    ],
+    "coverages": [
+        {
+            "type": "Medical",
+            "deductible": 1000,
+            "copay": 20,
+            "coinsurance": 0.8
+        },
+        {
+            "type": "Dental",
+            "deductible": 400,
+            "copay": 10,
+            "coinsurance": 0.7
+        },
+        {
+            "type": "Prescription Drug",
+            "deductible": 300,
+            "copay": 15,
+            "coinsurance": 0.6
+        }
+    ],
+    "notes": ""
+}

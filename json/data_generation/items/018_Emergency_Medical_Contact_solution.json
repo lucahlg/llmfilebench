@@ -1,0 +1,19 @@
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "middleName": "Anne",
+    "suffix": "Jr.",
+    "familyRelationship": "Spouse",
+    "phone": {
+        "phoneNumber": "(555) 555-5555"
+    },
+    "email": {
+        "emailAddress": "jane.doe@example.com"
+    },
+    "address": {
+        "streetAddress": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zipCode": "91234"
+    }
+}

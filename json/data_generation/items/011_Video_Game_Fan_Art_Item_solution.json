@@ -1,0 +1,45 @@
+{
+    "title": "The Last of Us Fan Art",
+    "description": "This is a beautiful painting of Joel and Ellie from The Last of Us.",
+    "artistInfo": {
+        "name": "Jane Doe",
+        "nationality": "American"
+    },
+    "artMedium": "Painting",
+    "creationDate": "2023-02-14",
+    "imageLink": "https://example.com/the-last-of-us-fan-art.jpg",
+    "price": 100,
+    "available": true,
+    "artist": {
+        "birthday": "1980-01-01",
+        "socialMediaLinks": [
+            {
+                "platform": "Twitter",
+                "link": "https://twitter.com/janedoeart"
+            },
+            {
+                "platform": "Instagram",
+                "link": "https://instagram.com/janedoeart"
+            },
+            {
+                "platform": "Facebook",
+                "link": "https://facebook.com/janedoeart"
+            }
+        ]
+    },
+    "videoGame": {
+        "title": "The Last of Us",
+        "developer": "Naughty Dog",
+        "publisher": "Sony Computer Entertainment",
+        "platforms": [
+            "PlayStation 3",
+            "PlayStation 4",
+            "PlayStation 5"
+        ],
+        "releaseDate": "2020-09-02",
+        "genres": [
+            "Action-adventure",
+            "Survival horror"
+        ]
+    }
+}
