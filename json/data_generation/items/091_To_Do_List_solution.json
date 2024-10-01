@@ -1,0 +1,31 @@
+{
+    "id": "1",
+    "name": "My First Todo List",
+    "description": "This is my first todo list.",
+    "tasks": [
+        {
+            "id": "2",
+            "title": "Build a website",
+            "description": "I want to build a website for my portfolio.",
+            "priority": "medium",
+            "due_date": "2023-03-31",
+            "completed": true
+        },
+        {
+            "id": "3",
+            "title": "Get a new job",
+            "description": "I need to find a new job that pays better.",
+            "priority": "medium",
+            "due_date": "2023-04-30",
+            "completed": false
+        },
+        {
+            "id": "4",
+            "title": "Practice JSON Manipulation",
+            "description": "Complete exercises to improve my JSON skills.",
+            "priority": "high",
+            "due_date": "2023-03-15",
+            "completed": false
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Allow-Web-Traffic-from-Trusted-Network",
+    "direction": "INGRESS",
+    "match": {
+        "destinationTags": [
+            "web"
+        ],
+        "sourceTags": [
+            "trusted-network"
+        ],
+        "ipRange": "10.0.0.0/22",
+        "protocol": [
+            "TCP",
+            "UDP"
+        ],
+        "portRange": "80-443"
+    },
+    "action": {
+        "allow": true,
+        "deny": false,
+        "log": false
+    },
+    "disabled": false
+}

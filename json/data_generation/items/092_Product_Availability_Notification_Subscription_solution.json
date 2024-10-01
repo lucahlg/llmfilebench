@@ -1,0 +1,13 @@
+{
+    "email": "jane.doe@example.com",
+    "customerName": "Jane Doe",
+    "deliveryPreference": "BIWEEKLY",
+    "orderDetails": {
+        "productIds": [
+            "PROD1234",
+            "PROD5678",
+            "PROD9012",
+            "PROD3456"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "cartId": "1234567890",
+    "cartTotal": {
+        "amount": 125.0,
+        "currencyCode": "USD"
+    },
+    "cartItems": [
+        {
+            "productId": "DEF456",
+            "quantity": 2
+        },
+        {
+            "productId": "GHI789",
+            "quantity": 3
+        }
+    ]
+}

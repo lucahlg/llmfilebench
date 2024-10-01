@@ -1,0 +1,26 @@
+{
+    "patient": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "dateOfBirth": "1980-01-01",
+        "gender": "Female",
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA"
+        }
+    },
+    "provider": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "specialty": "Cardiology"
+    },
+    "appointmentType": "Consultation",
+    "startTime": "2023-03-15T14:00:00Z",
+    "endTime": "2023-03-15T15:00:00Z",
+    "appointmentDetails": {
+        "notes": "Patient is experiencing chest pain.",
+        "reasonForVisit": "Follow up on chest pain",
+        "diagnosis": ""
+    }
+}

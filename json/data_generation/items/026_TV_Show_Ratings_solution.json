@@ -1,0 +1,48 @@
+[
+    {
+        "name": "The Office",
+        "country": "US",
+        "numberOfSeasons": 9,
+        "genres": [
+            "Comedy"
+        ],
+        "premiereDate": "2005",
+        "leadActors": [
+            "Steve Carell",
+            "Rainn Wilson",
+            "John Krasinski"
+        ]
+    },
+    {
+        "name": "Game of Thrones",
+        "country": "US",
+        "numberOfSeasons": 9,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "premiereDate": "2011",
+        "leadActors": [
+            "Emilia Clarke",
+            "Peter Dinklage",
+            "Kit Harington"
+        ]
+    },
+    {
+        "name": "Breaking Bad",
+        "country": "US",
+        "numberOfSeasons": 5,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "premiereDate": "2008",
+        "leadActors": [
+            "Bryan Cranston",
+            "Aaron Paul"
+        ]
+    }
+]

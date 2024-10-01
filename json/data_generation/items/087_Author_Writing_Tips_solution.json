@@ -1,0 +1,19 @@
+{
+    "author": {
+        "id": 1,
+        "name": "Jane Doe",
+        "bio": "Jane Doe is a software engineer and writer. She is passionate about helping people learn and grow.",
+        "image": "https://example.com/jane-doe.jpg"
+    },
+    "tip": {
+        "id": 1,
+        "title": "How to Write a Good Blog Post",
+        "authorId": 1,
+        "content": "1. Brainstorm a catchy title that accurately reflects your post's content.\n2. Structure your post logically, using headings and subheadings for clarity.\n3. Write in a conversational tone, engaging your readers directly.\n4. Include relevant examples and visuals to enhance understanding.\n5. Proofread carefully for grammar and spelling errors before publishing.",
+        "tags": [
+            "writing",
+            "blogging",
+            "blogging tips"
+        ]
+    }
+}

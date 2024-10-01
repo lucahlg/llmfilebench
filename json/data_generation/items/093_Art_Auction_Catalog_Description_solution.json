@@ -1,0 +1,80 @@
+{
+    "artworks": [
+        {
+            "title": "Les Nymph\u00e9as",
+            "artist": {
+                "name": "Claude Monet",
+                "nationality": "French Impressionist"
+            },
+            "year": 1906,
+            "medium": "Oil on canvas",
+            "dimensions": {
+                "height": 89.5,
+                "width": 92.1,
+                "unit": "cm"
+            },
+            "description": "This painting is one of Monet's most famous works, and it depicts a water lily pond in his garden at Giverny.",
+            "estimate": {
+                "low": 20000000,
+                "high": 30000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "title": "Starry Night",
+            "artist": {
+                "name": "Vincent van Gogh",
+                "nationality": "Dutch"
+            },
+            "year": 1889,
+            "medium": "Oil on canvas",
+            "description": "This painting is one of van Gogh's most famous works, and it depicts a swirling night sky over a small village.",
+            "estimate": {
+                "low": 10000000,
+                "high": 15000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "title": "Guernica",
+            "artist": {
+                "name": "Pablo Picasso",
+                "nationality": "Spanish"
+            },
+            "year": 1937,
+            "medium": "Oil on canvas",
+            "dimensions": {
+                "height": 349.3,
+                "width": 776.6,
+                "unit": "cm"
+            },
+            "description": "This painting is one of Picasso's most famous works, and it depicts the bombing of the Basque town of Guernica during the Spanish Civil War.",
+            "estimate": {
+                "low": 50000000,
+                "high": 70000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "title": "The Scream",
+            "artist": {
+                "name": "Edvard Munch",
+                "nationality": "Norwegian"
+            },
+            "year": 1893,
+            "medium": "Tempera and crayon on cardboard",
+            "dimensions": {
+                "height": 91,
+                "width": 73.5,
+                "unit": "cm"
+            },
+            "description": "This iconic expressionist painting portrays a figure with an anguished facial expression against a swirling, fiery background.",
+            "estimate": {
+                "low": 80000000,
+                "high": 120000000,
+                "currency": "USD"
+            }
+        }
+    ],
+    "averageEstimate": 45000000
+}

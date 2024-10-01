@@ -1,0 +1,26 @@
+{
+    "name": "Telehealth Technology X",
+    "description": "A telehealth technology that provides high-quality video and audio conferencing.",
+    "mediaCodec": "H.264",
+    "audioCodec": "Opus",
+    "videoResolution": "720p",
+    "networkProtocol": "TCP",
+    "securityProtocol": "TLS",
+    "encryptionMethod": "AES-256",
+    "additionalFeatures": [
+        "Screen sharing: Allows healthcare providers to share their screen with patients for demonstrations or visual explanations.",
+        "File sharing: Enables secure transfer of medical documents and images between providers and patients.",
+        "Text chat: Facilitates real-time text communication during consultations for clarifying information or addressing questions."
+    ],
+    "supportedPlatforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+    ],
+    "platformCategories": [
+        "Desktop",
+        "Mobile"
+    ],
+    "limitations": "Requires a high-speed internet connection."
+}

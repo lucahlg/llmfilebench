@@ -1,0 +1,94 @@
+[
+    {
+      "id": "1",
+      "name": "iPhone 13 Pro Max",
+      "description": "A powerful smartphone with an advanced camera system and long battery life.",
+      "price": 999,
+      "currency": "USD",
+      "quantity": 50,
+      "images": [
+        "https://example.com/iphone-13-pro-max-1.jpg",
+        "https://example.com/iphone-13-pro-max-2.jpg",
+        "https://example.com/iphone-13-pro-max-3.jpg"
+      ],
+      "categories": [
+        "Smartphones",
+        "Electronics"
+      ],
+      "brand": "Apple",
+      "seller": {
+        "id": "12345",
+        "name": "XYZ Electronics",
+        "address": {
+          "street": "123 Main Street",
+          "city": "Anytown",
+          "state": "CA",
+          "country": "USA",
+          "zipCode": "90210"
+        },
+        "contact": {
+          "email": "sales@example.com",
+          "phone": "1-800-555-2323"
+        }
+      },
+      "shipping": {
+        "type": "standard",
+        "cost": 5,
+        "deliveryTime": "3-5 business days"
+      },
+      "reviews": [
+        {
+          "id": "3",
+          "author": "John Doe",
+          "rating": 5,
+          "comment": "This phone is amazing! The camera is incredible and the battery life is great.",
+          "date": "2022-09-20T18:30:00Z"
+        },
+        {
+          "id": "4",
+          "author": "Jane Smith",
+          "rating": 4,
+          "comment": "I love this phone, but the screen is a bit too big for my taste.",
+          "date": "2022-09-21T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S22 Ultra",
+      "description": "A premium Android smartphone with a stunning display and versatile camera system.",
+      "price": 1199,
+      "currency": "USD",
+      "quantity": 25,
+      "images": [
+        "https://example.com/galaxy-s22-ultra-1.jpg",
+        "https://example.com/galaxy-s22-ultra-2.jpg"
+      ],
+      "categories": [
+        "Smartphones",
+        "Electronics"
+      ],
+      "brand": "Samsung",
+      "seller": {
+        "id": "67890",
+        "name": "ABC Electronics",
+        "address": {
+          "street": "456 Oak Avenue",
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA",
+          "zipCode": "62701"
+        },
+        "contact": {
+          "email": "support@example.com",
+          "phone": "1-888-555-1212"
+        }
+      },
+      "shipping": {
+        "type": "express",
+        "cost": 10,
+        "deliveryTime": "1-2 business days"
+      },
+      "reviews": []
+    }
+  ]
