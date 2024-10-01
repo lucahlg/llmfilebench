@@ -1,0 +1,14 @@
+{
+    "episode_id": "episode-123",
+    "outtake_id": "outtake-456",
+    "duration": 45,
+    "filepath": "/path/to/outtake.mp3",
+    "notes": "This outtake features a hilarious conversation between the hosts about their favorite podcasting microphones.",
+    "tags": [
+        "funny",
+        "blooper",
+        "conversation"
+    ],
+    "start_time": 0,
+    "end_time": 0
+}

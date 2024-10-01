@@ -1,0 +1,99 @@
+{
+    "planName": "Sample Business Continuity Plan",
+    "planDescription": "This plan outlines procedures for responding to and recovering from disruptions.",
+    "planObjectives": [
+        "Minimize downtime during a disruption.",
+        "Ensure the availability of critical resources."
+    ],
+    "reputationalObjective": "Protect the company's reputation and brand.",
+    "components": [
+        {
+            "componentId": "00000000-0000-0000-0000-000000000001",
+            "componentName": "Prevention",
+            "componentDescription": "This component focuses on preventing disruptions from occurring.",
+            "componentType": "Prevention",
+            "componentObjectives": [
+                "Identify and assess potential risks.",
+                "Implement controls to mitigate risks."
+            ],
+            "componentActions": [
+                {
+                    "actionId": "00000000-0000-0000-0000-000000000002",
+                    "actionName": "Conduct risk assessments.",
+                    "actionDescription": "This action will involve identifying and assessing potential risks to the business.",
+                    "actionType": "Preparatory",
+                    "actionPriority": "High",
+                    "actionOwner": "John Smith",
+                    "actionDueDate": "2023-04-08",
+                    "actionStatus": "Not Started"
+                }
+            ]
+        },
+        {
+            "componentId": "00000000-0000-0000-0000-000000000003",
+            "componentName": "Mitigation",
+            "componentDescription": "This component focuses on minimizing the impact of disruptions.",
+            "componentType": "Mitigation",
+            "componentObjectives": [
+                "Develop contingency plans for critical business functions.",
+                "Establish alternative work sites."
+            ],
+            "componentActions": [
+                {
+                    "actionId": "00000000-0000-0000-0000-000000000004",
+                    "actionName": "Implement security controls.",
+                    "actionDescription": "This action will involve implementing controls to mitigate risks to the business.",
+                    "actionType": "Preparatory",
+                    "actionPriority": "Medium",
+                    "actionOwner": "Jane Doe",
+                    "actionDueDate": "2023-05-08",
+                    "actionStatus": "Completed"
+                }
+            ]
+        },
+        {
+            "componentId": "00000000-0000-0000-0000-000000000004",
+            "componentName": "Detection",
+            "componentDescription": "This component focuses on detecting disruptions as early as possible.",
+            "componentType": "Detection",
+            "componentObjectives": [
+                "Establish a monitoring system to detect disruptions.",
+                "Develop procedures for responding to disruptions.",
+                "Conduct regular testing of the monitoring system."
+            ],
+            "componentActions": [
+                {
+                    "actionId": "00000000-0000-0000-0000-000000000005",
+                    "actionName": "Establish a monitoring system.",
+                    "actionDescription": "This action will involve establishing a system to monitor for disruptions.",
+                    "actionType": "Preparatory",
+                    "actionPriority": "High",
+                    "actionOwner": "John Smith",
+                    "actionDueDate": "2023-06-08",
+                    "actionStatus": "Not Started"
+                },
+                {
+                    "actionId": "00000000-0000-0000-0000-000000000006",
+                    "actionName": "Develop procedures for responding to disruptions.",
+                    "actionDescription": "This action will involve developing procedures for responding to disruptions.",
+                    "actionType": "Preparatory",
+                    "actionPriority": "Medium",
+                    "actionOwner": "Jane Doe",
+                    "actionDueDate": "2023-07-08",
+                    "actionStatus": "In Progress"
+                }
+            ]
+        },
+        {
+            "componentId": "00000000-0000-0000-0000-000000000007",
+            "componentName": "Recovery",
+            "componentDescription": "This component focuses on restoring normal operations after a disruption.",
+            "componentType": "Recovery",
+            "componentObjectives": [
+                "Restore critical systems and data.",
+                "Communicate with stakeholders."
+            ],
+            "componentActions": []
+        }
+    ]
+}

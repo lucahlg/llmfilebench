@@ -1,0 +1,42 @@
+{
+    "benefits": [
+        {
+            "name": "Health Insurance",
+            "description": "Provides coverage for medical expenses.",
+            "cost": 100,
+            "coverage": "PPO"
+        },
+        {
+            "name": "Dental Insurance",
+            "description": "Provides coverage for dental expenses.",
+            "cost": 60,
+            "coverage": "HMO"
+        },
+        {
+            "name": "Vision Insurance",
+            "description": "Provides coverage for vision expenses.",
+            "cost": 25,
+            "coverage": "EPO"
+        },
+        {
+            "name": "Life Insurance",
+            "description": "Provides coverage for death benefits.",
+            "cost": 25,
+            "coverage": "Term"
+        },
+        {
+            "name": "Disability Insurance",
+            "description": "Provides coverage for disability benefits.",
+            "cost": 25,
+            "coverage": "Short-Term"
+        },
+        {
+            "name": "Flexible Spending Account (FSA)",
+            "description": "Allows pre-tax contributions for healthcare and dependent care expenses.",
+            "cost": 20,
+            "coverage": "FSA"
+        }
+    ],
+    "cost": 255,
+    "coverage": "Comprehensive coverage including basic medical, dental, vision, and disability benefits."
+}

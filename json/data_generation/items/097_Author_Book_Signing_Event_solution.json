@@ -1,0 +1,40 @@
+{
+    "id": 1,
+    "name": "Book Club Meeting",
+    "venue": {
+        "name": "Central Library",
+        "address": {
+            "streetAddress": "100 Main Street",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "91234"
+        },
+        "venueContact": {
+            "phoneNumber": "555-123-4567",
+            "email": "centrallibrary@example.com"
+        }
+    },
+    "book": {
+        "title": "The Great Gatsby",
+        "isbn": "9780743273565"
+    },
+    "authorBiography": {
+        "firstName": "F. Scott",
+        "lastName": "Fitzgerald",
+        "bio": "American novelist and short story writer, widely regarded as one of the greatest American writers of the 20th century."
+    },
+    "author": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "bio": "Local book club member and avid reader."
+    },
+    "startDate": "2023-03-15",
+    "endDate": "2023-03-15",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "discussionPoints": [
+        "Gatsby's portrayal of the American Dream",
+        "The significance of symbolism in the novel",
+        "Character analysis of Daisy Buchanan"
+    ]
+}

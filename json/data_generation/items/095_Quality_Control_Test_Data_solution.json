@@ -1,0 +1,38 @@
+{
+    "product": {
+        "name": "Acme SuperWidget",
+        "description": "A revolutionary new widget engineered for exceptional performance and durability."
+    },
+    "batchNumber": "123456",
+    "testDate": "2023-03-08",
+    "tests": [
+        {
+            "testName": "Widget Strength Test",
+            "result": "Pass",
+            "comments": "The widget withstood a force of 1000 Newtons without breaking."
+        },
+        {
+            "testName": "Widget Durability Test",
+            "result": "Pass",
+            "comments": "The widget failed after being dropped from a height of 1 meter."
+        },
+        {
+            "testName": "Widget Waterproof Test",
+            "result": "Pass",
+            "comments": "The widget was submerged in water for 30 minutes and showed no signs of damage."
+        },
+        {
+            "testName": "Electrical Conductivity Test",
+            "result": "Pass",
+            "comments": "The widget exhibited minimal electrical conductivity within acceptable parameters."
+        }
+    ],
+    "summary": {
+        "totalTests": 4,
+        "passedTests": [
+            "Widget Strength Test",
+            "Widget Waterproof Test",
+            "Electrical Conductivity Test"
+        ]
+    }
+}
