@@ -1,6 +1,7 @@
 import os
 import json
 import csv
+from datetime import datetime
 
 def is_valid_json(filepath):
     """Check if a file contains valid JSON."""
@@ -22,7 +23,7 @@ def normalize_json(data):
         # Recursively normalize each dictionary key's value
         return {key: normalize_json(value) for key, value in sorted(data.items())}
     elif isinstance(data, list):
-        # Sort lists after normalizing each element. Convert dictionaries in the list to sorted tuples for sorting purposes.
+        # Sort lists after normalizing each element
         return sorted([normalize_json(item) for item in data], key=lambda x: str(x))
     return data  # Return primitive types (int, str, etc.) as-is
 
@@ -36,20 +37,57 @@ def partial_compare(json1, json2):
     """Check if json1 has all the required keys and values from json2."""
     if isinstance(json1, dict) and isinstance(json2, dict):
         for key, value in json2.items():
-            if key not in json1 or not compare_json(json1[key], value):
+            if key not in json1 or not partial_compare(json1[key], value):
                 return False
         return True
-    return compare_json(json1, json2)
-
-def extract_complexity(file_name):
-    """Extract the level of complexity from the file name."""
-    # Assuming the file pattern is <running_number>_<complexity>.json or <running_number>_<complexity>_solution.json
-    parts = file_name.split('_')
-    if len(parts) > 1:
-        complexity = parts[1].replace('.json', '')  # Extract the complexity part
+    elif isinstance(json1, list) and isinstance(json2, list):
+        # Check if all items in json2 are in json1
+        for item in json2:
+            if not any(partial_compare(elem, item) for elem in json1):
+                return False
+        return True
     else:
-        complexity = "unknown"  # Default if the pattern is wrong
-    return complexity
+        return json1 == json2
+
+def calculate_complexity(data):
+    """Calculate the complexity of a JSON object."""
+    def traverse(node, depth=0):
+        nonlocal max_depth, total_elements, max_breadth
+        if isinstance(node, dict):
+            total_elements += len(node)
+            max_breadth = max(max_breadth, len(node))
+            max_depth = max(max_depth, depth)
+            for value in node.values():
+                traverse(value, depth + 1)
+        elif isinstance(node, list):
+            total_elements += len(node)
+            max_breadth = max(max_breadth, len(node))
+            max_depth = max(max_depth, depth)
+            for item in node:
+                traverse(item, depth + 1)
+        else:
+            total_elements += 1
+            max_depth = max(max_depth, depth)
+
+    max_depth = 0
+    total_elements = 0
+    max_breadth = 0
+    traverse(data)
+
+    # Define thresholds for complexity levels
+    if max_depth <= 3 and total_elements <= 10:
+        complexity_level = "Low"
+    elif max_depth <= 6 and total_elements <= 50:
+        complexity_level = "Medium"
+    else:
+        complexity_level = "High"
+
+    return {
+        "max_depth": max_depth,
+        "total_elements": total_elements,
+        "max_breadth": max_breadth,
+        "complexity_level": complexity_level
+    }
 
 def main(directory, csv_output):
     results = []
@@ -67,11 +105,8 @@ def main(directory, csv_output):
 
         json_path = os.path.join(directory, json_file)
 
-        # Extract the level of complexity from the file name
-        complexity_level = extract_complexity(json_file)
-
         # Initialize result entry
-        result = {"file": json_file, "complexity": complexity_level, "result": "Failed", "reason": ""}
+        result = {"file": json_file, "result": "Failed", "reason": "", "complexity": ""}
 
         # Check if the first file is a valid JSON
         if not is_valid_json(json_path):
@@ -79,20 +114,26 @@ def main(directory, csv_output):
             results.append(result)
             continue
 
+        # Load the JSON data
+        json_data = load_json(json_path)
+
+        # Calculate complexity of the JSON data
+        complexity_info = calculate_complexity(json_data)
+        result["complexity"] = complexity_info["complexity_level"]
+
         # Check if the solution file exists
         if not os.path.exists(solution_path):
             result["reason"] = "Solution file not found"
             results.append(result)
             continue
 
-        # Load the JSON files
-        json_data = load_json(json_path)
+        # Load the solution data
         solution_data = load_json(solution_path)
 
         # First, try a normalized comparison
         if compare_json(json_data, solution_data):
             result["result"] = "Success"
-            result["reason"] = "Match (with normalized comparison)"
+            result["reason"] = "Exact match (with normalized comparison)"
         # If direct comparison fails, try partial matching
         elif partial_compare(json_data, solution_data):
             result["result"] = "Success"
@@ -104,7 +145,7 @@ def main(directory, csv_output):
 
     # Write results to CSV
     with open(csv_output, mode='w', newline='') as csv_file:
-        fieldnames = ['file', 'complexity', 'result', 'reason']
+        fieldnames = ['file', 'result', 'reason', 'complexity']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
         writer.writeheader()
@@ -115,5 +156,7 @@ def main(directory, csv_output):
 
 if __name__ == "__main__":
     directory = "./result_files"  # The directory where the JSON files are located (modify if needed)
-    csv_output = "test_results.csv"  # Change the CSV file path if needed
+    # Generate a timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    csv_output = f"test_results_{timestamp}.csv"  # Change the CSV file path if needed
     main(directory, csv_output)
