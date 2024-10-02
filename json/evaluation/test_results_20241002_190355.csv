@@ -1,0 +1,6 @@
+file,result,reason,complexity
+Art_Auction_Catalog_Description.json,Failed,Key/Value mismatch,High
+Author_Book_Signing_Event.json,Failed,Key/Value mismatch,Medium
+Author_Writing_Tips.json,Failed,Key/Value mismatch,Medium
+Business_Continuity_Plan.json,Failed,Key/Value mismatch,High
+Report.json,Failed,Solution file not found,Medium

@@ -91,14 +91,15 @@ def calculate_complexity(data):
 
 def main(directory, csv_output):
     results = []
-
+    print(f"Running tests on JSON files in {directory}...")
     # Path to the solutions folder (one folder up)
     solutions_folder = os.path.join(os.path.dirname(directory), '../solutions')
 
     # List all files in the directory
     files = sorted(f for f in os.listdir(directory) if f.endswith('.json') and not f.endswith('_solution.json'))
-
+    print(f"Found {len(files)} JSON files to process.")
     for json_file in files:
+        print(f"Processing {json_file}...")
         # Get corresponding solution file from the "solutions" folder
         solution_file = json_file.replace('.json', '_solution.json')
         solution_path = os.path.join(solutions_folder, solution_file)
